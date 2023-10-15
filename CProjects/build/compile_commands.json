@@ -1,0 +1,7 @@
+[
+{
+  "directory": "/Users/giammy/Documents/CodingProjects/CProjects/build",
+  "command": "/usr/bin/clang   -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk -o CMakeFiles/CProject.dir/main.c.o -c /Users/giammy/Documents/CodingProjects/CProjects/main.c",
+  "file": "/Users/giammy/Documents/CodingProjects/CProjects/main.c"
+}
+]

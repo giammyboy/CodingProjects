@@ -1,0 +1,10 @@
+{
+    "C_Cpp.default.configurationProvider": "ms-vscode.cmake-tools",
+    "files.associations": {
+        "random": "c",
+        "stdio.h": "c",
+        "file03.h": "c",
+        "__config": "c",
+        "file01.h": "c"
+    }
+}

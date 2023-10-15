@@ -1,0 +1,638 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" lang="it-IT">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+<title>LEZIONI DI ANALISI 2    A.A. 2021-22 &#171; Pagina per la didattica del prof. Claudio Saccon</title>
+<link rel="profile" href="http://gmpg.org/xfn/11" />
+<link rel="pingback" href="" />
+<meta name='robots' content='max-image-preview:large' />
+<link rel='dns-prefetch' href='//s.w.org' />
+<link rel="alternate" type="application/rss+xml" title="Pagina per la didattica del prof. Claudio Saccon &raquo; Feed" href="http://pagine.dm.unipi.it/csblog1/feed/" />
+<link rel="alternate" type="application/rss+xml" title="Pagina per la didattica del prof. Claudio Saccon &raquo; Feed dei commenti" href="http://pagine.dm.unipi.it/csblog1/comments/feed/" />
+<script type="text/javascript">
+window._wpemojiSettings = {"baseUrl":"https:\/\/s.w.org\/images\/core\/emoji\/14.0.0\/72x72\/","ext":".png","svgUrl":"https:\/\/s.w.org\/images\/core\/emoji\/14.0.0\/svg\/","svgExt":".svg","source":{"concatemoji":"http:\/\/pagine.dm.unipi.it\/csblog1\/wp-includes\/js\/wp-emoji-release.min.js?ver=6.0.3"}};
+/*! This file is auto-generated */
+!function(e,a,t){var n,r,o,i=a.createElement("canvas"),p=i.getContext&&i.getContext("2d");function s(e,t){var a=String.fromCharCode,e=(p.clearRect(0,0,i.width,i.height),p.fillText(a.apply(this,e),0,0),i.toDataURL());return p.clearRect(0,0,i.width,i.height),p.fillText(a.apply(this,t),0,0),e===i.toDataURL()}function c(e){var t=a.createElement("script");t.src=e,t.defer=t.type="text/javascript",a.getElementsByTagName("head")[0].appendChild(t)}for(o=Array("flag","emoji"),t.supports={everything:!0,everythingExceptFlag:!0},r=0;r<o.length;r++)t.supports[o[r]]=function(e){if(!p||!p.fillText)return!1;switch(p.textBaseline="top",p.font="600 32px Arial",e){case"flag":return s([127987,65039,8205,9895,65039],[127987,65039,8203,9895,65039])?!1:!s([55356,56826,55356,56819],[55356,56826,8203,55356,56819])&&!s([55356,57332,56128,56423,56128,56418,56128,56421,56128,56430,56128,56423,56128,56447],[55356,57332,8203,56128,56423,8203,56128,56418,8203,56128,56421,8203,56128,56430,8203,56128,56423,8203,56128,56447]);case"emoji":return!s([129777,127995,8205,129778,127999],[129777,127995,8203,129778,127999])}return!1}(o[r]),t.supports.everything=t.supports.everything&&t.supports[o[r]],"flag"!==o[r]&&(t.supports.everythingExceptFlag=t.supports.everythingExceptFlag&&t.supports[o[r]]);t.supports.everythingExceptFlag=t.supports.everythingExceptFlag&&!t.supports.flag,t.DOMReady=!1,t.readyCallback=function(){t.DOMReady=!0},t.supports.everything||(n=function(){t.readyCallback()},a.addEventListener?(a.addEventListener("DOMContentLoaded",n,!1),e.addEventListener("load",n,!1)):(e.attachEvent("onload",n),a.attachEvent("onreadystatechange",function(){"complete"===a.readyState&&t.readyCallback()})),(e=t.source||{}).concatemoji?c(e.concatemoji):e.wpemoji&&e.twemoji&&(c(e.twemoji),c(e.wpemoji)))}(window,document,window._wpemojiSettings);
+</script>
+<style type="text/css">
+img.wp-smiley,
+img.emoji {
+	display: inline !important;
+	border: none !important;
+	box-shadow: none !important;
+	height: 1em !important;
+	width: 1em !important;
+	margin: 0 0.07em !important;
+	vertical-align: -0.1em !important;
+	background: none !important;
+	padding: 0 !important;
+}
+</style>
+	<link rel='stylesheet' id='wp-block-library-css'  href='http://pagine.dm.unipi.it/csblog1/wp-includes/css/dist/block-library/style.min.css?ver=6.0.3' type='text/css' media='all' />
+<style id='global-styles-inline-css' type='text/css'>
+body{--wp--preset--color--black: #000000;--wp--preset--color--cyan-bluish-gray: #abb8c3;--wp--preset--color--white: #ffffff;--wp--preset--color--pale-pink: #f78da7;--wp--preset--color--vivid-red: #cf2e2e;--wp--preset--color--luminous-vivid-orange: #ff6900;--wp--preset--color--luminous-vivid-amber: #fcb900;--wp--preset--color--light-green-cyan: #7bdcb5;--wp--preset--color--vivid-green-cyan: #00d084;--wp--preset--color--pale-cyan-blue: #8ed1fc;--wp--preset--color--vivid-cyan-blue: #0693e3;--wp--preset--color--vivid-purple: #9b51e0;--wp--preset--gradient--vivid-cyan-blue-to-vivid-purple: linear-gradient(135deg,rgba(6,147,227,1) 0%,rgb(155,81,224) 100%);--wp--preset--gradient--light-green-cyan-to-vivid-green-cyan: linear-gradient(135deg,rgb(122,220,180) 0%,rgb(0,208,130) 100%);--wp--preset--gradient--luminous-vivid-amber-to-luminous-vivid-orange: linear-gradient(135deg,rgba(252,185,0,1) 0%,rgba(255,105,0,1) 100%);--wp--preset--gradient--luminous-vivid-orange-to-vivid-red: linear-gradient(135deg,rgba(255,105,0,1) 0%,rgb(207,46,46) 100%);--wp--preset--gradient--very-light-gray-to-cyan-bluish-gray: linear-gradient(135deg,rgb(238,238,238) 0%,rgb(169,184,195) 100%);--wp--preset--gradient--cool-to-warm-spectrum: linear-gradient(135deg,rgb(74,234,220) 0%,rgb(151,120,209) 20%,rgb(207,42,186) 40%,rgb(238,44,130) 60%,rgb(251,105,98) 80%,rgb(254,248,76) 100%);--wp--preset--gradient--blush-light-purple: linear-gradient(135deg,rgb(255,206,236) 0%,rgb(152,150,240) 100%);--wp--preset--gradient--blush-bordeaux: linear-gradient(135deg,rgb(254,205,165) 0%,rgb(254,45,45) 50%,rgb(107,0,62) 100%);--wp--preset--gradient--luminous-dusk: linear-gradient(135deg,rgb(255,203,112) 0%,rgb(199,81,192) 50%,rgb(65,88,208) 100%);--wp--preset--gradient--pale-ocean: linear-gradient(135deg,rgb(255,245,203) 0%,rgb(182,227,212) 50%,rgb(51,167,181) 100%);--wp--preset--gradient--electric-grass: linear-gradient(135deg,rgb(202,248,128) 0%,rgb(113,206,126) 100%);--wp--preset--gradient--midnight: linear-gradient(135deg,rgb(2,3,129) 0%,rgb(40,116,252) 100%);--wp--preset--duotone--dark-grayscale: url('#wp-duotone-dark-grayscale');--wp--preset--duotone--grayscale: url('#wp-duotone-grayscale');--wp--preset--duotone--purple-yellow: url('#wp-duotone-purple-yellow');--wp--preset--duotone--blue-red: url('#wp-duotone-blue-red');--wp--preset--duotone--midnight: url('#wp-duotone-midnight');--wp--preset--duotone--magenta-yellow: url('#wp-duotone-magenta-yellow');--wp--preset--duotone--purple-green: url('#wp-duotone-purple-green');--wp--preset--duotone--blue-orange: url('#wp-duotone-blue-orange');--wp--preset--font-size--small: 13px;--wp--preset--font-size--medium: 20px;--wp--preset--font-size--large: 36px;--wp--preset--font-size--x-large: 42px;}.has-black-color{color: var(--wp--preset--color--black) !important;}.has-cyan-bluish-gray-color{color: var(--wp--preset--color--cyan-bluish-gray) !important;}.has-white-color{color: var(--wp--preset--color--white) !important;}.has-pale-pink-color{color: var(--wp--preset--color--pale-pink) !important;}.has-vivid-red-color{color: var(--wp--preset--color--vivid-red) !important;}.has-luminous-vivid-orange-color{color: var(--wp--preset--color--luminous-vivid-orange) !important;}.has-luminous-vivid-amber-color{color: var(--wp--preset--color--luminous-vivid-amber) !important;}.has-light-green-cyan-color{color: var(--wp--preset--color--light-green-cyan) !important;}.has-vivid-green-cyan-color{color: var(--wp--preset--color--vivid-green-cyan) !important;}.has-pale-cyan-blue-color{color: var(--wp--preset--color--pale-cyan-blue) !important;}.has-vivid-cyan-blue-color{color: var(--wp--preset--color--vivid-cyan-blue) !important;}.has-vivid-purple-color{color: var(--wp--preset--color--vivid-purple) !important;}.has-black-background-color{background-color: var(--wp--preset--color--black) !important;}.has-cyan-bluish-gray-background-color{background-color: var(--wp--preset--color--cyan-bluish-gray) !important;}.has-white-background-color{background-color: var(--wp--preset--color--white) !important;}.has-pale-pink-background-color{background-color: var(--wp--preset--color--pale-pink) !important;}.has-vivid-red-background-color{background-color: var(--wp--preset--color--vivid-red) !important;}.has-luminous-vivid-orange-background-color{background-color: var(--wp--preset--color--luminous-vivid-orange) !important;}.has-luminous-vivid-amber-background-color{background-color: var(--wp--preset--color--luminous-vivid-amber) !important;}.has-light-green-cyan-background-color{background-color: var(--wp--preset--color--light-green-cyan) !important;}.has-vivid-green-cyan-background-color{background-color: var(--wp--preset--color--vivid-green-cyan) !important;}.has-pale-cyan-blue-background-color{background-color: var(--wp--preset--color--pale-cyan-blue) !important;}.has-vivid-cyan-blue-background-color{background-color: var(--wp--preset--color--vivid-cyan-blue) !important;}.has-vivid-purple-background-color{background-color: var(--wp--preset--color--vivid-purple) !important;}.has-black-border-color{border-color: var(--wp--preset--color--black) !important;}.has-cyan-bluish-gray-border-color{border-color: var(--wp--preset--color--cyan-bluish-gray) !important;}.has-white-border-color{border-color: var(--wp--preset--color--white) !important;}.has-pale-pink-border-color{border-color: var(--wp--preset--color--pale-pink) !important;}.has-vivid-red-border-color{border-color: var(--wp--preset--color--vivid-red) !important;}.has-luminous-vivid-orange-border-color{border-color: var(--wp--preset--color--luminous-vivid-orange) !important;}.has-luminous-vivid-amber-border-color{border-color: var(--wp--preset--color--luminous-vivid-amber) !important;}.has-light-green-cyan-border-color{border-color: var(--wp--preset--color--light-green-cyan) !important;}.has-vivid-green-cyan-border-color{border-color: var(--wp--preset--color--vivid-green-cyan) !important;}.has-pale-cyan-blue-border-color{border-color: var(--wp--preset--color--pale-cyan-blue) !important;}.has-vivid-cyan-blue-border-color{border-color: var(--wp--preset--color--vivid-cyan-blue) !important;}.has-vivid-purple-border-color{border-color: var(--wp--preset--color--vivid-purple) !important;}.has-vivid-cyan-blue-to-vivid-purple-gradient-background{background: var(--wp--preset--gradient--vivid-cyan-blue-to-vivid-purple) !important;}.has-light-green-cyan-to-vivid-green-cyan-gradient-background{background: var(--wp--preset--gradient--light-green-cyan-to-vivid-green-cyan) !important;}.has-luminous-vivid-amber-to-luminous-vivid-orange-gradient-background{background: var(--wp--preset--gradient--luminous-vivid-amber-to-luminous-vivid-orange) !important;}.has-luminous-vivid-orange-to-vivid-red-gradient-background{background: var(--wp--preset--gradient--luminous-vivid-orange-to-vivid-red) !important;}.has-very-light-gray-to-cyan-bluish-gray-gradient-background{background: var(--wp--preset--gradient--very-light-gray-to-cyan-bluish-gray) !important;}.has-cool-to-warm-spectrum-gradient-background{background: var(--wp--preset--gradient--cool-to-warm-spectrum) !important;}.has-blush-light-purple-gradient-background{background: var(--wp--preset--gradient--blush-light-purple) !important;}.has-blush-bordeaux-gradient-background{background: var(--wp--preset--gradient--blush-bordeaux) !important;}.has-luminous-dusk-gradient-background{background: var(--wp--preset--gradient--luminous-dusk) !important;}.has-pale-ocean-gradient-background{background: var(--wp--preset--gradient--pale-ocean) !important;}.has-electric-grass-gradient-background{background: var(--wp--preset--gradient--electric-grass) !important;}.has-midnight-gradient-background{background: var(--wp--preset--gradient--midnight) !important;}.has-small-font-size{font-size: var(--wp--preset--font-size--small) !important;}.has-medium-font-size{font-size: var(--wp--preset--font-size--medium) !important;}.has-large-font-size{font-size: var(--wp--preset--font-size--large) !important;}.has-x-large-font-size{font-size: var(--wp--preset--font-size--x-large) !important;}
+</style>
+<script type='text/javascript' src='http://pagine.dm.unipi.it/csblog1/wp-includes/js/jquery/jquery.min.js?ver=3.6.0' id='jquery-core-js'></script>
+<script type='text/javascript' src='http://pagine.dm.unipi.it/csblog1/wp-includes/js/jquery/jquery-migrate.min.js?ver=3.3.2' id='jquery-migrate-js'></script>
+<link rel="https://api.w.org/" href="http://pagine.dm.unipi.it/csblog1/wp-json/" /><link rel="alternate" type="application/json" href="http://pagine.dm.unipi.it/csblog1/wp-json/wp/v2/pages/3644" /><link rel="canonical" href="http://pagine.dm.unipi.it/csblog1/lezioni-di-analisi-2-a-a-2021-22/" />
+<link rel='shortlink' href='http://pagine.dm.unipi.it/csblog1/?p=3644' />
+<link rel="alternate" type="application/json+oembed" href="http://pagine.dm.unipi.it/csblog1/wp-json/oembed/1.0/embed?url=http%3A%2F%2Fpagine.dm.unipi.it%2Fcsblog1%2Flezioni-di-analisi-2-a-a-2021-22%2F" />
+<link rel="alternate" type="text/xml+oembed" href="http://pagine.dm.unipi.it/csblog1/wp-json/oembed/1.0/embed?url=http%3A%2F%2Fpagine.dm.unipi.it%2Fcsblog1%2Flezioni-di-analisi-2-a-a-2021-22%2F&#038;format=xml" />
+<style type="text/css">body{text-align:center;margin:0;padding:0;font-family:tahoma,arial,sans-serif;font-size:0.8em;color:#000000;background:url(/csblog1/wp-content/uploads/sites/17/2010/02/quadretti2.png) repeat top left}a:link,a:visited,a:active{color:#666666;font-weight:bold;text-decoration:none;}a:hover{color:#CC0000;font-weight:bold;text-decoration:underline}ul,ol,dl,p,h1,h2,h3,h4,h5,h6{margin-top:10px;margin-bottom:10px;padding-top:0;padding-bottom:0;}ul ul,ul ol,ol ul,ol ol{margin-top:0;margin-bottom:0}code,pre{font-family:"Courier New",Courier,monospace;font-size:1em}pre{overflow:auto;word-wrap:normal;padding-bottom:1.5em;overflow-y:hidden;width:99%}abbr[title],acronym[title]{border-bottom:1px dotted}hr{display:block;height:2px;border:none;margin:0.5em auto;color:#cccccc;background-color:#cccccc}table{font-size:1em;}div.post,ul.commentlist li,ol.commentlist li{word-wrap:break-word;}pre,.wp_syntax{word-wrap:normal;}div#wrapper{text-align:center;margin-left:auto;margin-right:auto;display:block;width:99%}div#container{padding:0;width:auto;margin-left:auto;margin-right:auto;text-align:left;display:block}table#layout{font-size:100%;width:100%;table-layout:fixed}.colone{width:200px}.colone-inner{width:200px}.coltwo{width:100% }.colthree-inner{width:200px}.colthree{width:200px}div#header.full-width{width:100%}div#header,td#header{width:auto;padding:0}table#logoarea,table#logoarea tr,table#logoarea td{margin:0;padding:0;background:none;border:0}table#logoarea{width:100%;border-spacing:0px}img.logo{display:block;margin:0 10px 0 0}td.logoarea-logo{width:1%}h1.blogtitle,h2.blogtitle{ display:block;margin:0;padding:0;letter-spacing:-1px;line-height:1.0em;font-family:tahoma,arial,sans-serif;font-size:240%;font-smooth:always}h1.blogtitle a:link,h1.blogtitle a:visited,h1.blogtitle a:active,h2.blogtitle a:link,h2.blogtitle a:visited,h2.blogtitle a:active{ text-decoration:none;color:#666666;font-weight:bold;font-smooth:always}h1.blogtitle a:hover,h2.blogtitle a:hover{ text-decoration:none;color:#000000;font-weight:bold}p.tagline{margin:0;padding:0;font-size:1.2em;font-weight:bold;color:#666666}td.feed-icons{white-space:nowrap;}div.rss-box{height:1%;display:block;padding:10px 0 10px 10px;margin:0;width:280px}a.comments-icon{height:22px;line-height:22px;margin:0 5px 0 5px;padding-left:22px;display:block;text-decoration:none;float:right;white-space:nowrap}a.comments-icon:link,a.comments-icon:active,a.comments-icon:visited{background:transparent url(http://pagine.dm.unipi.it/csblog1/wp-content/themes/atahualpa/images/comment-gray.png) no-repeat scroll center left}a.comments-icon:hover{background:transparent url(http://pagine.dm.unipi.it/csblog1/wp-content/themes/atahualpa/images/comment.png) no-repeat scroll center left}a.posts-icon{height:22px;line-height:22px;margin:0 5px 0 0;padding-left:20px;display:block;text-decoration:none;float:right;white-space:nowrap}a.posts-icon:link,a.posts-icon:active,a.posts-icon:visited{background:transparent url(http://pagine.dm.unipi.it/csblog1/wp-content/themes/atahualpa/images/rss-gray.png) no-repeat scroll center left}a.posts-icon:hover{background:transparent url(http://pagine.dm.unipi.it/csblog1/wp-content/themes/atahualpa/images/rss.png) no-repeat scroll center left}a.email-icon{height:22px;line-height:22px;margin:0 5px 0 5px;padding-left:24px;display:block;text-decoration:none;float:right;white-space:nowrap}a.email-icon:link,a.email-icon:active,a.email-icon:visited{background:transparent url(http://pagine.dm.unipi.it/csblog1/wp-content/themes/atahualpa/images/email-gray.png) no-repeat scroll center left}a.email-icon:hover{background:transparent url(http://pagine.dm.unipi.it/csblog1/wp-content/themes/atahualpa/images/email.png) no-repeat scroll center left}td.search-box{height:1%}div.searchbox{height:35px;border:1px dashed #cccccc;border-bottom:0;width:200px;margin:0;padding:0}div.searchbox-form{margin:5px 10px 5px 10px}div.horbar1,div.horbar2{font-size:1px;clear:both;display:block;position:relative;padding:0;margin:0}div.horbar1{height:5px;background:#ffffff;border-top:dashed 1px #cccccc}div.horbar2{height:5px;background:#ffffff;border-bottom:dashed 1px #cccccc}div.header-image-container-pre{position:relative;margin:0;padding:0;height:150px;}div.header-image-container{position:relative;margin:0;padding:0;height:150px;}div.codeoverlay{position:absolute;top:0;left:0;width:100%;height:100%}div.opacityleft{position:absolute;z-index:2;top:0;left:0;background-color:#FFFFFF;height:150px;width:200px;filter:alpha(opacity=40);opacity:.40}div.opacityright{position:absolute;z-index:2;top:0;right:0;background-color:#FFFFFF;height:150px;width:200px;filter:alpha(opacity=40);opacity:.40}a.divclick:link,a.divclick:visited,a.divclick:active,a.divclick:hover{width:100%;height:100%;display:block;text-decoration:none}td#left{vertical-align:top;border-right:dashed 1px #CCCCCC;padding:10px 10px 10px 10px;background:#ffffff}td#left-inner{vertical-align:top;border-right:dashed 1px #CCCCCC;padding:10px 10px 10px 10px;background:#ffffff}td#right{vertical-align:top;border-left:dashed 1px #CCCCCC;padding:10px 10px 10px 10px;background:#ffffff}td#right-inner{vertical-align:top;border-left:dashed 1px #CCCCCC;padding:10px 10px 10px 10px;background:#ffffff}td#middle{vertical-align:top;width:100%;padding:10px 15px}div#footer.full-width{width:100%}div#footer,td#footer{width:auto;background-color:#ffffff;border-top:dashed 1px #cccccc;padding:10px;text-align:center;color:#777777;font-size:95%}div#footer a:link,div#footer a:visited,div#footer a:active,td#footer a:link,td#footer a:visited,td#footer a:active{text-decoration:none;color:#777777;font-weight:normal}div#footer a:hover,td#footer a:hover{text-decoration:none;color:#777777;font-weight:normal}div.widget{display:block;width:auto;margin:0 0 15px 0}div.widget-title{display:block;width:auto}div.widget-title h3,td#left h3.tw-widgettitle,td#right h3.tw-widgettitle,td#left ul.tw-nav-list,td#right ul.tw-nav-list{padding:0;margin:0;font-size:1.6em;font-weight:bold}div.widget ul,div.textwidget{display:block;width:auto}div.widget select{width:98%;margin-top:5px;}div.widget ul{list-style-type:none;margin:0;padding:0;width:auto}div.widget ul li{display:block;margin:2px 0 2px 0px;padding:0 0 0 5px;border-left:solid 7px #cccccc}div.widget ul li:hover,div.widget ul li.sfhover{display:block;width:auto;border-left:solid 7px #000000;}div.widget ul li ul li{margin:2px 0 2px 5px;padding:0 0 0 5px;border-left:solid 7px #cccccc;}div.widget ul li ul li:hover,div.widget ul li ul li.sfhover{border-left:solid 7px #000000;}div.widget ul li ul li ul li{margin:2px 0 2px 5px;padding:0 0 0 5px;border-left:solid 7px #cccccc;}div.widget ul li ul li ul li:hover,div.widget ul li ul li ul li.sfhover{border-left:solid 7px #000000;}div.widget a:link,div.widget a:visited,div.widget a:active,div.widget td a:link,div.widget td a:visited,div.widget td a:active,div.widget ul li a:link,div.widget ul li a:visited,div.widget ul li a:active{text-decoration:none;font-weight:normal;color:#666666;font-weight:normal;}div.widget ul li ul li a:link,div.widget ul li ul li a:visited,div.widget ul li ul li a:active{color:#666666;font-weight:normal;}div.widget ul li ul li ul li a:link,div.widget ul li ul li ul li a:visited,div.widget ul li ul li ul li a:active{color:#666666;font-weight:normal;}div.widget a:hover,div.widget ul li a:hover{color:#000000;}div.widget ul li ul li a:hover{color:#000000;}div.widget ul li ul li ul li a:hover{color:#000000;}div.widget ul li a:link,div.widget ul li a:visited,div.widget ul li a:active,div.widget ul li a:hover{display:inline}* html div.widget ul li a:link,* html div.widget ul li a:visited,* html div.widget ul li a:active,* html div.widget ul li a:hover{height:1%; } div.widget_nav_menu ul li,div.widget_pages ul li,div.widget_categories ul li{border-left:0 !important;padding:0 !important}div.widget_nav_menu ul li a:link,div.widget_nav_menu ul li a:visited,div.widget_nav_menu ul li a:active,div.widget_pages ul li a:link,div.widget_pages ul li a:visited,div.widget_pages ul li a:active,div.widget_categories ul li a:link,div.widget_categories ul li a:visited,div.widget_categories ul li a:active{padding:0 0 0 5px;border-left:solid 7px #cccccc}div.widget_nav_menu ul li a:hover,div.widget_pages ul li a:hover,div.widget_categories ul li a:hover{border-left:solid 7px #000000;}div.widget_nav_menu ul li ul li a:link,div.widget_nav_menu ul li ul li a:visited,div.widget_nav_menu ul li ul li a:active,div.widget_pages ul li ul li a:link,div.widget_pages ul li ul li a:visited,div.widget_pages ul li ul li a:active,div.widget_categories ul li ul li a:link,div.widget_categories ul li ul li a:visited,div.widget_categories ul li ul li a:active{padding:0 0 0 5px;border-left:solid 7px #cccccc}div.widget_nav_menu ul li ul li a:hover,div.widget_pages ul li ul li a:hover,div.widget_categories ul li ul li a:hover{border-left:solid 7px #000000;}div.widget_nav_menu ul li ul li ul li a:link,div.widget_nav_menu ul li ul li ul li a:visited,div.widget_nav_menu ul li ul li ul li a:active,div.widget_pages ul li ul li ul li a:link,div.widget_pages ul li ul li ul li a:visited,div.widget_pages ul li ul li ul li a:active,div.widget_categories ul li ul li ul li a:link,div.widget_categories ul li ul li ul li a:visited,div.widget_categories ul li ul li ul li a:active{padding:0 0 0 5px;border-left:solid 7px #cccccc}div.widget_nav_menu ul li ul li ul li a:hover,div.widget_pages ul li ul li ul li a:hover,div.widget_categories ul li ul li ul li a:hover{border-left:solid 7px #000000;}div.widget_nav_menu ul li a:link,div.widget_nav_menu ul li a:active,div.widget_nav_menu ul li a:visited,div.widget_nav_menu ul li a:hover,div.widget_pages ul li a:link,div.widget_pages ul li a:active,div.widget_pages ul li a:visited,div.widget_pages ul li a:hover{display:block !important}div.widget_categories ul li a:link,div.widget_categories ul li a:active,div.widget_categories ul li a:visited,div.widget_categories ul li a:hover{display:inline !important}table.subscribe{width:100%}table.subscribe td.email-text{padding:0 0 5px 0;vertical-align:top}table.subscribe td.email-field{padding:0;width:100%}table.subscribe td.email-button{padding:0 0 0 5px}table.subscribe td.post-text{padding:7px 0 0 0;vertical-align:top}table.subscribe td.comment-text{padding:7px 0 0 0;vertical-align:top}div.post,div.page{display:block;margin:0 0 30px 0}div.sticky{background:#eee url('http://pagine.dm.unipi.it/csblog1/wp-content/themes/atahualpa /images/sticky.gif') 99% 5% no-repeat;border:dashed 1px #cccccc;padding:10px}div.post-kicker{margin:0 0 5px 0}div.post-kicker a:link,div.post-kicker a:visited,div.post-kicker a:active{color:#000000;text-decoration:none;text-transform:uppercase}div.post-kicker a:hover{color:#cc0000}div.post-headline{}div.post-headline h1,div.post-headline h2{ margin:0; padding:0;padding:0;margin:0}div.post-headline h2 a:link,div.post-headline h2 a:visited,div.post-headline h2 a:active,div.post-headline h1 a:link,div.post-headline h1 a:visited,div.post-headline h1 a:active{color:#666666;text-decoration:none}div.post-headline h2 a:hover,div.post-headline h1 a:hover{color:#000000;text-decoration:none}div.post-byline{margin:5px 0 10px 0}div.post-byline a:link,div.post-byline a:visited,div.post-byline a:active{}div.post-byline a:hover{}div.post-bodycopy{}div.post-bodycopy p{margin:1em 0;padding:0;display:block}div.post-pagination{}div.post-footer{clear:both;display:block;margin:0;padding:5px;background:#eeeeee;color:#666;line-height:18px}div.post-footer a:link,div.post-footer a:visited,div.post-footer a:active{color:#333;font-weight:normal;text-decoration:none}div.post-footer a:hover{color:#333;font-weight:normal;text-decoration:underline}div.post-kicker img,div.post-byline img,div.post-footer img{border:0;padding:0;margin:0 0 -1px 0;background:none}span.post-ratings{display:inline-block;width:auto;white-space:nowrap}div.navigation-top{margin:0 0 10px 0;padding:0 0 10px 0;border-bottom:dashed 1px #cccccc}div.navigation-middle{margin:10px 0 20px 0;padding:10px 0 10px 0;border-top:dashed 1px #cccccc;border-bottom:dashed 1px #cccccc}div.navigation-bottom{margin:20px 0 0 0;padding:10px 0 0 0;border-top:dashed 1px #cccccc}div.navigation-comments-above{margin:0 0 10px 0;padding:5px 0 5px 0}div.navigation-comments-below{margin:0 0 10px 0;padding:5px 0 5px 0}div.older{float:left;width:48%;text-align:left;margin:0;padding:0}div.newer{float:right;width:48%;text-align:right;margin:0;padding:0;}div.older-home{float:left;width:44%;text-align:left;margin:0;padding:0}div.newer-home{float:right;width:44%;text-align:right;margin:0;padding:0;}div.home{float:left;width:8%;text-align:center;margin:0;padding:0}form,.feedburner-email-form{margin:0;padding:0;}fieldset{border:1px solid #cccccc;width:auto;padding:0.35em 0.625em 0.75em;display:block;}legend{color:#000000;background:#f4f4f4;border:1px solid #cccccc;padding:2px 6px;margin-bottom:15px;}form p{margin:5px 0 0 0;padding:0;}div.xhtml-tags p{margin:0}label{margin-right:0.5em;font-family:arial;cursor:pointer;}input.text,input.textbox,input.password,input.file,input.TextField,textarea{padding:3px;color:#000000;border-top:solid 1px #333333;border-left:solid 1px #333333;border-right:solid 1px #999999;border-bottom:solid 1px #cccccc;background:url(http://pagine.dm.unipi.it/csblog1/wp-content/themes/atahualpa/images/inputbackgr.gif) top left no-repeat}textarea{width:96%;}input.inputblur{color:#777777;width:95%}input.inputfocus{color:#000000;width:95%}input.highlight,textarea.highlight{background:#e8eff7;border-color:#37699f}.button,.Button,input[type=submit]{padding:0 2px;height:24px;line-height:16px;background-color:#777777;color:#ffffff;border:solid 2px #555555;font-weight:bold}input.buttonhover{padding:0 2px;cursor:pointer;background-color:#6b9c6b;color:#ffffff;border:solid 2px #496d49}form#commentform input#submit{ padding:0 .25em; overflow:visible}form#commentform input#submit[class]{width:auto}form#commentform input#submit{padding:4px 10px 4px 10px;font-size:1.2em;line-height:1.5em;height:36px}table.searchform{width:100%}table.searchform td.searchfield{padding:0;width:100%}table.searchform td.searchbutton{padding:0 0 0 5px}table.searchform td.searchbutton input{padding:0 0 0 5px}blockquote{height:1%;display:block;clear:both;color:#555555;padding:1em 1em;background:#f4f4f4;border:solid 1px #e1e1e1}blockquote blockquote{height:1%;display:block;clear:both;color:#444444;padding:1em 1em;background:#e1e1e1;border:solid 1px #d3d3d3}div.post table{border-collapse:collapse;margin:10px 0}div.post table caption{width:auto;margin:0 auto;background:#eeeeee;border:#999999;padding:4px 8px;color:#666666}div.post table th{background:#888888;color:#ffffff;font-weight:bold;font-size:90%;padding:4px 8px;border:solid 1px #ffffff;text-align:left}div.post table td{padding:4px 8px;background-color:#ffffff;border-bottom:1px solid #dddddd;text-align:left}div.post table tfoot td{}div.post table tr.alt td{background:#f4f4f4}div.post table tr.over td{background:#e2e2e2}#calendar_wrap{padding:0;border:none}table#wp-calendar{width:100%;font-size:90%;border-collapse:collapse;background-color:#ffffff;margin:0 auto}table#wp-calendar caption{width:auto;background:#eeeeee;border:none;padding:3px;margin:0 auto;font-size:1em}table#wp-calendar th{border:solid 1px #eeeeee;background-color:#999999;color:#ffffff;font-weight:bold;padding:2px;text-align:center}table#wp-calendar td{padding:0;line-height:18px;background-color:#ffffff;border:1px solid #dddddd;text-align:center}table#wp-calendar tfoot td{border:solid 1px #eeeeee;background-color:#eeeeee}table#wp-calendar td a{display:block;background-color:#eeeeee;width:100%;height:100%;padding:0}div#respond{margin:25px 0;padding:25px;background:#eee;-moz-border-radius:8px;-khtml-border-radius:8px;-webkit-border-radius:8px;border-radius:8px}p.thesetags{margin:10px 0}h3.reply,h3#reply-title{margin:0;padding:0 0 10px 0}ol.commentlist{margin:15px 0 25px 0;list-style-type:none;padding:0;display:block;border-top:dotted 1px #cccccc}ol.commentlist li{padding:15px 10px;display:block;height:1%;margin:0;background-color:#ffffff;border-bottom:dotted 1px #cccccc}ol.commentlist li.alt{display:block;height:1%;background-color:#eeeeee;border-bottom:dotted 1px #cccccc}ol.commentlist li.authorcomment{display:block;height:1%;background-color:#ffecec}ol.commentlist span.authorname{font-weight:bold;font-size:110%}ol.commentlist span.commentdate{color:#666666;font-size:90%;margin-bottom:5px;display:block}ol.commentlist span.editcomment{display:block}ol.commentlist li p{margin:2px 0 5px 0}div.comment-number{float:right;font-size:2em;line-height:2em;font-family:georgia,serif;font-weight:bold;color:#ddd;margin:-10px 0 0 0;position:relative;height:1%}div.comment-number a:link,div.comment-number a:visited,div.comment-number a:active{color:#ccc}textarea#comment{width:98%;margin:10px 0;display:block}ul.commentlist{margin:15px 0 15px 0;list-style-type:none;padding:0;display:block;border-top:dotted 1px #cccccc}ul.commentlist ul{margin:0;border:none;list-style-type:none;padding:0}ul.commentlist li{padding:0; margin:0;display:block;clear:both;height:1%;}ul.commentlist ul.children li{ margin-left:30px}ul.commentlist div.comment-container{padding:10px;margin:0}ul.children div.comment-container{background-color:transparent;border:dotted 1px #ccc;padding:10px;margin:0 10px 8px 0; border-radius:5px}ul.children div.bypostauthor{}ul.commentlist li.thread-even{background-color:#ffffff;border-bottom:dotted 1px #cccccc}ul.commentlist li.thread-odd{background-color:#eeeeee;border-bottom:dotted 1px #cccccc}ul.commentlist div.bypostauthor{background-color:#ffecec}ul.children div.bypostauthor{border:dotted 1px #ffbfbf}ul.commentlist span.authorname{font-size:110%}div.comment-meta a:link,div.comment-meta a:visited,div.comment-meta a:active,div.comment-meta a:hover{font-weight:normal}div#cancel-comment-reply{margin:-5px 0 10px 0}div.comment-number{float:right;font-size:2em;line-height:2em;font-family:georgia,serif;font-weight:bold;color:#ddd;margin:-10px 0 0 0;position:relative;height:1%}div.comment-number a:link,div.comment-number a:visited,div.comment-number a:active{color:#ccc}.page-numbers{padding:2px 6px;border:solid 1px #000000;border-radius:6px}span.current{background:#ddd}a.prev,a.next{border:none}a.page-numbers:link,a.page-numbers:visited,a.page-numbers:active{text-decoration:none;color:#666666;border-color:#666666}a.page-numbers:hover{text-decoration:none;color:#CC0000;border-color:#CC0000}div.xhtml-tags{display:none}abbr em{border:none !important;border-top:dashed 1px #aaa !important;display:inline-block !important;background:url(http://pagine.dm.unipi.it/csblog1/wp-content/themes/atahualpa/images/commentluv.gif) 0% 90% no-repeat;margin-top:8px;padding:5px 5px 2px 20px !important;font-style:normal}p.subscribe-to-comments{margin-bottom:10px}div#gsHeader{display:none;}div.g2_column{margin:0 !important;width:100% !important;font-size:1.2em}div#gsNavBar{border-top-width:0 !important}p.giDescription{font-size:1.2em;line-height:1 !important}p.giTitle{margin:0.3em 0 !important;font-size:1em;font-weight:normal;color:#666}div#wp-email img{border:0;padding:0}div#wp-email input,div#wp-email textarea{margin-top:5px;margin-bottom:2px}div#wp-email p{margin-bottom:10px}input#wp-email-submit{ padding:0; font-size:30px; height:50px; line-height:50px; overflow:visible;}img.WP-EmailIcon{ vertical-align:text-bottom !important}.tw-accordion .tw-widgettitle,.tw-accordion .tw-widgettitle:hover,.tw-accordion .tw-hovered,.tw-accordion .selected,.tw-accordion .selected:hover{ background:transparent !important; background-image:none !important}.tw-accordion .tw-widgettitle span{ padding-left:0 !important}.tw-accordion h3.tw-widgettitle{border-bottom:solid 1px #ccc}.tw-accordion h3.selected{border-bottom:none}td#left .without_title,td#right .without_title{ margin-top:0;margin-bottom:0}ul.tw-nav-list{border-bottom:solid 1px #999;display:block;margin-bottom:5px !important}td#left ul.tw-nav-list li,td#right ul.tw-nav-list li{padding:0 0 1px 0;margin:0 0 -1px 5px; border:solid 1px #ccc;border-bottom:none;border-radius:5px;border-bottom-right-radius:0;border-bottom-left-radius:0;background:#eee}td#left ul.tw-nav-list li.ui-tabs-selected,td#right ul.tw-nav-list li.ui-tabs-selected{ background:none;border:solid 1px #999;border-bottom:solid 1px #fff !important}ul.tw-nav-list li a:link,ul.tw-nav-list li a:visited,ul.tw-nav-list li a:active,ul.tw-nav-list li a:hover{padding:0 8px !important;background:none;border-left:none !important;outline:none}td#left ul.tw-nav-list li.ui-tabs-selected a,td#left li.ui-tabs-selected a:hover,td#right ul.tw-nav-list li.ui-tabs-selected a,td#right li.ui-tabs-selected a:hover{ color:#000000; text-decoration:none;font-weight:bold;background:none !important;outline:none}td#left .ui-tabs-panel,td#right .ui-tabs-panel{ margin:0; padding:0}img{border:0}#dbem-location-map img{ background:none !important}.post img{padding:5px;border:solid 1px #dddddd;background-color:#f3f3f3;-moz-border-radius:3px;-khtml-border-radius:3px;-webkit-border-radius:3px;border-radius:3px}.post img.size-full{max-width:96%;width:auto;margin:5px 0 5px 0}div.post img[class~=size-full]{height:auto;}.post img.alignleft{float:left;margin:10px 10px 5px 0;}.post img.alignright{float:right;margin:10px 0 5px 10px;}.post img.aligncenter{display:block;margin:10px auto}.aligncenter,div.aligncenter{ display:block; margin-left:auto; margin-right:auto}.alignleft,div.alignleft{float:left;margin:10px 10px 5px 0}.alignright,div.alignright{ float:right; margin:10px 0 5px 10px}div.archives-page img{border:0;padding:0;background:none;margin-bottom:0;vertical-align:-10%}.wp-caption{max-width:96%;width:auto 100%;height:auto;display:block;border:1px solid #dddddd;text-align:center;background-color:#f3f3f3;padding-top:4px;margin:10px 0 0 0;-moz-border-radius:3px;-khtml-border-radius:3px;-webkit-border-radius:3px;border-radius:3px}* html .wp-caption{height:100%;}.wp-caption img{ margin:0 !important; padding:0 !important; border:0 none !important}.wp-caption-text,.wp-caption p.wp-caption-text{font-size:0.8em;line-height:13px;padding:2px 4px 5px;margin:0;color:#666666}img.wp-post-image{float:left;border:0;padding:0;background:none;margin:0 10px 5px 0}img.wp-smiley{ float:none;border:none !important;margin:0 1px -1px 1px;padding:0 !important;background:none !important}img.avatar{float:left;display:block;margin:0 8px 1px 0;padding:3px;border:solid 1px #ddd;background-color:#f3f3f3;-moz-border-radius:3px;-khtml-border-radius:3px;-webkit-border-radius:3px;border-radius:3px}#comment_quicktags{text-align:left;padding:10px 0 2px 0;display:block}#comment_quicktags input.ed_button{background:#f4f4f4;border:2px solid #cccccc;color:#444444;margin:2px 4px 2px 0;width:auto;padding:0 4px;height:24px;line-height:16px}#comment_quicktags input.ed_button_hover{background:#dddddd;border:2px solid #666666;color:#000000;margin:2px 4px 2px 0;width:auto;padding:0 4px;height:24px;line-height:16px;cursor:pointer}#comment_quicktags #ed_strong{font-weight:bold}#comment_quicktags #ed_em{font-style:italic}@media print{body{background:white;color:black;margin:0;font-size:10pt !important;font-family:arial,sans-serif;}div.post-footer{line-height:normal !important;color:#555 !important;font-size:9pt !important}a:link,a:visited,a:active,a:hover{text-decoration:underline !important;color:#000}h2{color:#000;font-size:14pt !important;font-weight:normal !important}h3{color:#000;font-size:12pt !important;}#header,#footer,.colone,.colone-inner,.colthree-inner,.colthree,.navigation,.navigation-top,.navigation-middle,.navigation-bottom,.wp-pagenavi-navigation,#comment,#respond,.remove-for-print{display:none}td#left,td#right,td#left-inner,td#right-inner{width:0;display:none}td#middle{width:100% !important;display:block}*:lang(en) td#left{ display:none}*:lang(en) td#right{ display:none}*:lang(en) td#left-inner{ display:none}*:lang(en) td#right-inner{ display:none}td#left:empty{ display:none}td#right:empty{ display:none}td#left-inner:empty{ display:none}td#right-inner:empty{ display:none}}ul.rMenu,ul.rMenu ul,ul.rMenu li,ul.rMenu a{display:block;margin:0;padding:0}ul.rMenu,ul.rMenu li,ul.rMenu ul{list-style:none}ul.rMenu ul{display:none}ul.rMenu li{position:relative;z-index:1}ul.rMenu li:hover{z-index:999}ul.rMenu li:hover > ul{display:block;position:absolute}ul.rMenu li:hover{background-position:0 0} ul.rMenu-hor li{float:left;width:auto}ul.rMenu-hRight li{float:right}ul.sub-menu li,ul.rMenu-ver li{float:none}div#menu1 ul.sub-menu,div#menu1 ul.sub-menu ul,div#menu1 ul.rMenu-ver,div#menu1 ul.rMenu-ver ul{width:11em}div#menu2 ul.sub-menu,div#menu2 ul.sub-menu ul,div#menu2 ul.rMenu-ver,div#menu2 ul.rMenu-ver ul{width:11em}ul.rMenu-wide{width:100%}ul.rMenu-vRight{float:right}ul.rMenu-lFloat{float:left}ul.rMenu-noFloat{float:none}div.rMenu-center ul.rMenu{float:left;position:relative;left:50%}div.rMenu-center ul.rMenu li{position:relative;left:-50%}div.rMenu-center ul.rMenu li li{left:auto}ul.rMenu-hor ul{top:auto;right:auto;left:auto;margin-top:-1px}ul.rMenu-hor ul ul{margin-top:0;margin-left:0px}ul.sub-menu ul,ul.rMenu-ver ul{left:100%;right:auto;top:auto;top:0}ul.rMenu-vRight ul,ul.rMenu-hRight ul.sub-menu ul,ul.rMenu-hRight ul.rMenu-ver ul{left:-100%;right:auto;top:auto}ul.rMenu-hRight ul{left:auto;right:0;top:auto;margin-top:-1px}div#menu1 ul.rMenu{background:#FFFFFF;border:dashed 1px #cccccc}div#menu2 ul.rMenu{background:#777777;border:solid 1px #000000}div#menu1 ul.rMenu li a{border:dashed 1px #cccccc}div#menu2 ul.rMenu li a{border:solid 1px #000000}ul.rMenu-hor li{margin-bottom:-1px;margin-top:-1px;margin-left:-1px}ul#rmenu li{}ul#rmenu li ul li{}ul.rMenu-hor{padding-left:1px }ul.sub-menu li,ul.rMenu-ver li{margin-left:0;margin-top:-1px; }div#menu1 ul.sub-menu,div#menu1 ul.rMenu-ver{border-top:dashed 1px #cccccc}div#menu2 ul.sub-menu,div#menu2 ul.rMenu-ver{border-top:solid 1px #000000}div#menu1 ul.rMenu li a{padding:4px 5px}div#menu2 ul.rMenu li a{padding:4px 5px}div#menu1 ul.rMenu li a:link,div#menu1 ul.rMenu li a:hover,div#menu1 ul.rMenu li a:visited,div#menu1 ul.rMenu li a:active{text-decoration:none;margin:0;color:#777777;text-transform:uppercase;font:11px Arial,Verdana,sans-serif;}div#menu2 ul.rMenu li a:link,div#menu2 ul.rMenu li a:hover,div#menu2 ul.rMenu li a:visited,div#menu2 ul.rMenu li a:active{text-decoration:none;margin:0;color:#FFFFFF;text-transform:uppercase;font:11px Arial,Verdana,sans-serif;}div#menu1 ul.rMenu li{background-color:#FFFFFF}div#menu2 ul.rMenu li{background-color:#777777}div#menu1 ul.rMenu li:hover,div#menu1 ul.rMenu li.sfhover{background:#DDDDDD}div#menu2 ul.rMenu li:hover,div#menu2 ul.rMenu li.sfhover{background:#000000}div#menu1 ul.rMenu li.current-menu-item > a:link,div#menu1 ul.rMenu li.current-menu-item > a:active,div#menu1 ul.rMenu li.current-menu-item > a:hover,div#menu1 ul.rMenu li.current-menu-item > a:visited,div#menu1 ul.rMenu li.current_page_item > a:link,div#menu1 ul.rMenu li.current_page_item > a:active,div#menu1 ul.rMenu li.current_page_item > a:hover,div#menu1 ul.rMenu li.current_page_item > a:visited{background-color:#EEEEEE;color:#000000}div#menu1 ul.rMenu li.current-menu-item a:link,div#menu1 ul.rMenu li.current-menu-item a:active,div#menu1 ul.rMenu li.current-menu-item a:hover,div#menu1 ul.rMenu li.current-menu-item a:visited,div#menu1 ul.rMenu li.current_page_item a:link,div#menu1 ul.rMenu li.current_page_item a:active,div#menu1 ul.rMenu li.current_page_item a:hover,div#menu1 ul.rMenu li.current_page_item a:visited,div#menu1 ul.rMenu li a:hover{background-color:#EEEEEE;color:#000000}div#menu2 ul.rMenu li.current-menu-item > a:link,div#menu2 ul.rMenu li.current-menu-item > a:active,div#menu2 ul.rMenu li.current-menu-item > a:hover,div#menu2 ul.rMenu li.current-menu-item > a:visited,div#menu2 ul.rMenu li.current-cat > a:link,div#menu2 ul.rMenu li.current-cat > a:active,div#menu2 ul.rMenu li.current-cat > a:hover,div#menu2 ul.rMenu li.current-cat > a:visited{background-color:#CC0000;color:#FFFFFF}div#menu2 ul.rMenu li.current-menu-item a:link,div#menu2 ul.rMenu li.current-menu-item a:active,div#menu2 ul.rMenu li.current-menu-item a:hover,div#menu2 ul.rMenu li.current-menu-item a:visited,div#menu2 ul.rMenu li.current-cat a:link,div#menu2 ul.rMenu li.current-cat a:active,div#menu2 ul.rMenu li.current-cat a:hover,div#menu2 ul.rMenu li.current-cat a:visited,div#menu2 ul.rMenu li a:hover{background-color:#CC0000;color:#FFFFFF}div#menu1 ul.rMenu li.rMenu-expand a,div#menu1 ul.rMenu li.rMenu-expand li.rMenu-expand a,div#menu1 ul.rMenu li.rMenu-expand li.rMenu-expand li.rMenu-expand a,div#menu1 ul.rMenu li.rMenu-expand li.rMenu-expand li.rMenu-expand li.rMenu-expand a,div#menu1 ul.rMenu li.rMenu-expand li.rMenu-expand li.rMenu-expand li.rMenu-expand li.rMenu-expand a,div#menu1 ul.rMenu li.rMenu-expand li.rMenu-expand li.rMenu-expand li.rMenu-expand li.rMenu-expand li.rMenu-expand a,div#menu1 ul.rMenu li.rMenu-expand li.rMenu-expand li.rMenu-expand li.rMenu-expand li.rMenu-expand li.rMenu-expand li.rMenu-expand a,div#menu1 ul.rMenu li.rMenu-expand li.rMenu-expand li.rMenu-expand li.rMenu-expand li.rMenu-expand li.rMenu-expand li.rMenu-expand li.rMenu-expand a,div#menu1 ul.rMenu li.rMenu-expand li.rMenu-expand li.rMenu-expand li.rMenu-expand li.rMenu-expand li.rMenu-expand li.rMenu-expand li.rMenu-expand li.rMenu-expand a,div#menu1 ul.rMenu li.rMenu-expand li.rMenu-expand li.rMenu-expand li.rMenu-expand li.rMenu-expand li.rMenu-expand li.rMenu-expand li.rMenu-expand li.rMenu-expand li.rMenu-expand a{padding-right:15px;padding-left:5px;background-repeat:no-repeat;background-position:100% 50%;background-image:url(http://pagine.dm.unipi.it/csblog1/wp-content/themes/atahualpa/images/expand-right.gif)}div#menu2 ul.rMenu li.rMenu-expand a,div#menu2 ul.rMenu li.rMenu-expand li.rMenu-expand a,div#menu2 ul.rMenu li.rMenu-expand li.rMenu-expand li.rMenu-expand a,div#menu2 ul.rMenu li.rMenu-expand li.rMenu-expand li.rMenu-expand li.rMenu-expand a,div#menu2 ul.rMenu li.rMenu-expand li.rMenu-expand li.rMenu-expand li.rMenu-expand li.rMenu-expand a,div#menu2 ul.rMenu li.rMenu-expand li.rMenu-expand li.rMenu-expand li.rMenu-expand li.rMenu-expand li.rMenu-expand a,div#menu2 ul.rMenu li.rMenu-expand li.rMenu-expand li.rMenu-expand li.rMenu-expand li.rMenu-expand li.rMenu-expand li.rMenu-expand a,div#menu2 ul.rMenu li.rMenu-expand li.rMenu-expand li.rMenu-expand li.rMenu-expand li.rMenu-expand li.rMenu-expand li.rMenu-expand li.rMenu-expand a,div#menu2 ul.rMenu li.rMenu-expand li.rMenu-expand li.rMenu-expand li.rMenu-expand li.rMenu-expand li.rMenu-expand li.rMenu-expand li.rMenu-expand li.rMenu-expand a,div#menu2 ul.rMenu li.rMenu-expand li.rMenu-expand li.rMenu-expand li.rMenu-expand li.rMenu-expand li.rMenu-expand li.rMenu-expand li.rMenu-expand li.rMenu-expand li.rMenu-expand a{padding-right:15px;padding-left:5px;background-repeat:no-repeat;background-position:100% 50%;background-image:url(http://pagine.dm.unipi.it/csblog1/wp-content/themes/atahualpa/images/expand-right-white.gif)}ul.rMenu-vRight li.rMenu-expand a,ul.rMenu-vRight li.rMenu-expand li.rMenu-expand a,ul.rMenu-vRight li.rMenu-expand li.rMenu-expand li.rMenu-expand a,ul.rMenu-vRight li.rMenu-expand li.rMenu-expand li.rMenu-expand li.rMenu-expand a,ul.rMenu-vRight li.rMenu-expand li.rMenu-expand li.rMenu-expand li.rMenu-expand li.rMenu-expand a,ul.rMenu-vRight li.rMenu-expand li.rMenu-expand li.rMenu-expand li.rMenu-expand li.rMenu-expand li.rMenu-expand a,ul.rMenu-vRight li.rMenu-expand li.rMenu-expand li.rMenu-expand li.rMenu-expand li.rMenu-expand li.rMenu-expand li.rMenu-expand a,ul.rMenu-vRight li.rMenu-expand li.rMenu-expand li.rMenu-expand li.rMenu-expand li.rMenu-expand li.rMenu-expand li.rMenu-expand li.rMenu-expand a,ul.rMenu-vRight li.rMenu-expand li.rMenu-expand li.rMenu-expand li.rMenu-expand li.rMenu-expand li.rMenu-expand li.rMenu-expand li.rMenu-expand li.rMenu-expand a,ul.rMenu-vRight li.rMenu-expand li.rMenu-expand li.rMenu-expand li.rMenu-expand li.rMenu-expand li.rMenu-expand li.rMenu-expand li.rMenu-expand li.rMenu-expand li.rMenu-expand a,ul.rMenu-hRight li.rMenu-expand a,ul.rMenu-hRight li.rMenu-expand li.rMenu-expand a,ul.rMenu-hRight li.rMenu-expand li.rMenu-expand li.rMenu-expand a,ul.rMenu-hRight li.rMenu-expand li.rMenu-expand li.rMenu-expand li.rMenu-expand a,ul.rMenu-hRight li.rMenu-expand li.rMenu-expand li.rMenu-expand li.rMenu-expand li.rMenu-expand a,ul.rMenu-hRight li.rMenu-expand li.rMenu-expand li.rMenu-expand li.rMenu-expand li.rMenu-expand li.rMenu-expand a,ul.rMenu-hRight li.rMenu-expand li.rMenu-expand li.rMenu-expand li.rMenu-expand li.rMenu-expand li.rMenu-expand li.rMenu-expand a,ul.rMenu-hRight li.rMenu-expand li.rMenu-expand li.rMenu-expand li.rMenu-expand li.rMenu-expand li.rMenu-expand li.rMenu-expand li.rMenu-expand a,ul.rMenu-hRight li.rMenu-expand li.rMenu-expand li.rMenu-expand li.rMenu-expand li.rMenu-expand li.rMenu-expand li.rMenu-expand li.rMenu-expand li.rMenu-expand a,ul.rMenu-hRight li.rMenu-expand li.rMenu-expand li.rMenu-expand li.rMenu-expand li.rMenu-expand li.rMenu-expand li.rMenu-expand li.rMenu-expand li.rMenu-expand li.rMenu-expand a{padding-right:5px;padding-left:20px;background-image:url(http://pagine.dm.unipi.it/csblog1/wp-content/themes/atahualpa/images/expand-left.gif);background-repeat:no-repeat;background-position:-5px 50%}div#menu1 ul.rMenu-hor li.rMenu-expand a{padding-left:5px;padding-right:15px !important;background-position:100% 50%;background-image:url(http://pagine.dm.unipi.it/csblog1/wp-content/themes/atahualpa/images/expand-down.gif)}div#menu2 ul.rMenu-hor li.rMenu-expand a{padding-left:5px;padding-right:15px !important;background-position:100% 50%;background-image:url(http://pagine.dm.unipi.it/csblog1/wp-content/themes/atahualpa/images/expand-down-white.gif)}div#menu1 ul.rMenu li.rMenu-expand li a,div#menu1 ul.rMenu li.rMenu-expand li.rMenu-expand li a,div#menu1 ul.rMenu li.rMenu-expand li.rMenu-expand li.rMenu-expand li a,div#menu1 ul.rMenu li.rMenu-expand li.rMenu-expand li.rMenu-expand li.rMenu-expand li a,div#menu1 ul.rMenu li.rMenu-expand li.rMenu-expand li.rMenu-expand li.rMenu-expand li.rMenu-expand li a{background-image:none;padding-right:5px;padding-left:5px}div#menu2 ul.rMenu li.rMenu-expand li a,div#menu2 ul.rMenu li.rMenu-expand li.rMenu-expand li a,div#menu2 ul.rMenu li.rMenu-expand li.rMenu-expand li.rMenu-expand li a,div#menu2 ul.rMenu li.rMenu-expand li.rMenu-expand li.rMenu-expand li.rMenu-expand li a,div#menu2 ul.rMenu li.rMenu-expand li.rMenu-expand li.rMenu-expand li.rMenu-expand li.rMenu-expand li a{background-image:none;padding-right:5px;padding-left:5px}* html ul.rMenu{display:inline-block;display:block;position:relative;position:static}* html ul.rMenu ul{float:left;float:none}ul.rMenu ul{background-color:#fff}* html ul.sub-menu li,* html ul.rMenu-ver li,* html ul.rMenu-hor li ul.sub-menu li,* html ul.rMenu-hor li ul.rMenu-ver li{width:100%;float:left;clear:left}*:first-child+html ul.sub-menu > li:hover ul,*:first-child+html ul.rMenu-ver > li:hover ul{min-width:0}ul.rMenu li a{position:relative;min-width:0}* html ul.rMenu-hor li{width:6em;width:auto}* html div.rMenu-center{position:relative;z-index:1}html:not([lang*=""]) div.rMenu-center ul.rMenu li a:hover{height:100%}html:not([lang*=""]) div.rMenu-center ul.rMenu li a:hover{height:auto}* html ul.rMenu ul{display:block;position:absolute}* html ul.rMenu ul,* html ul.rMenu-hor ul,* html ul.sub-menu ul,* html ul.rMenu-ver ul,* html ul.rMenu-vRight ul,* html ul.rMenu-hRight ul.sub-menu ul,* html ul.rMenu-hRight ul.rMenu-ver ul,* html ul.rMenu-hRight ul{left:-10000px}* html ul.rMenu li.sfhover{z-index:999}* html ul.rMenu li.sfhover ul{left:auto}* html ul.rMenu li.sfhover ul ul,* html ul.rMenu li.sfhover ul ul ul{display:none}* html ul.rMenu li.sfhover ul,* html ul.rMenu li li.sfhover ul,* html ul.rMenu li li li.sfhover ul{display:block}* html ul.sub-menu li.sfhover ul,* html ul.rMenu-ver li.sfhover ul{left:60%}* html ul.rMenu-vRight li.sfhover ul,* html ul.rMenu-hRight ul.sub-menu li.sfhover ul* html ul.rMenu-hRight ul.rMenu-ver li.sfhover ul{left:-60%}* html ul.rMenu iframe{position:absolute;left:0;top:0;z-index:-1}* html ul.rMenu{margin-left:1px}* html ul.rMenu ul,* html ul.rMenu ul ul,* html ul.rMenu ul ul ul,* html ul.rMenu ul ul ul ul{margin-left:0}.clearfix:after{ content:".";display:block;height:0;clear:both;visibility:hidden}.clearfix{min-width:0;display:inline-block;display:block}* html .clearfix{height:1%;}.clearboth{clear:both;height:1%;font-size:1%;line-height:1%;display:block;padding:0;margin:0}h1{font-size:34px;line-height:1.2;margin:0.3em 0 10px;}h2{font-size:28px;line-height:1.3;margin:1em 0 .2em;}h3{font-size:24px;line-height:1.3;margin:1em 0 .2em;}h4{font-size:19px;margin:1.33em 0 .2em;}h5{font-size:1.3em;margin:1.67em 0;font-weight:bold;}h6{font-size:1.15em;margin:1.67em 0;font-weight:bold;}</style>
+<script type="text/javascript">
+//<![CDATA[
+
+
+
+/* JQUERY */
+jQuery(document).ready(function(){ 
+    
+   
+  
+
+	/* jQuery('ul#rmenu').superfish(); */
+	/* jQuery('ul#rmenu').superfish().find('ul').bgIframe({opacity:false}); */
+ 
+	/* For IE6 */
+	if (jQuery.browser.msie && /MSIE 6\.0/i.test(window.navigator.userAgent) && !/MSIE 7\.0/i.test(window.navigator.userAgent) && !/MSIE 8\.0/i.test(window.navigator.userAgent)) {
+
+		/* Max-width for images in IE6 */		
+		var centerwidth = jQuery("td#middle").width(); 
+		
+		/* Images without caption */
+		jQuery(".post img").each(function() { 
+			var maxwidth = centerwidth - 10 + 'px';
+			var imgwidth = jQuery(this).width(); 
+			var imgheight = jQuery(this).height(); 
+			var newimgheight = (centerwidth / imgwidth * imgheight) + 'px';	
+			if (imgwidth > centerwidth) { 
+				jQuery(this).css({width: maxwidth}); 
+				jQuery(this).css({height: newimgheight}); 
+			}
+		});
+		
+		/* Images with caption */
+		jQuery("div.wp-caption").each(function() { 
+			var captionwidth = jQuery(this).width(); 
+			var maxcaptionwidth = centerwidth + 'px';
+			var captionheight = jQuery(this).height();
+			var captionimgwidth =  jQuery("div.wp-caption img").width();
+			var captionimgheight =  jQuery("div.wp-caption img").height();
+			if (captionwidth > centerwidth) { 
+				jQuery(this).css({width: maxcaptionwidth}); 
+				var newcaptionheight = (centerwidth / captionwidth * captionheight) + 'px';
+				var newcaptionimgheight = (centerwidth / captionimgwidth * captionimgheight) + 'px';
+				jQuery(this).css({height: newcaptionheight}); 
+				jQuery("div.wp-caption img").css({height: newcaptionimgheight}); 
+				}
+		});
+		
+		/* sfhover for LI:HOVER support in IE6: */
+		jQuery("ul li").
+			hover( function() {
+					jQuery(this).addClass("sfhover")
+				}, 
+				function() {
+					jQuery(this).removeClass("sfhover")
+				} 
+			); 
+
+	/* End IE6 */
+	}
+	
+	
+	
+	/* Since 3.7.8: Auto resize videos (embed and iframe elements) 
+	TODO: Parse parent's dimensions only once per layout column, not per video
+	*/
+	function bfa_resize_video() {
+		jQuery('embed, iframe').each( function() {
+			var video = jQuery(this),
+			videoWidth = video.attr('width'); // use the attr here, not width() or css()
+			videoParent = video.parent(),
+			videoParentWidth = parseFloat( videoParent.css( 'width' ) ),
+			videoParentBorder = parseFloat( videoParent.css( 'border-left-width' ) ) 
+										+  parseFloat( videoParent.css( 'border-right-width' ) ),
+			videoParentPadding = parseFloat( videoParent.css( 'padding-left' ) ) 
+										+  parseFloat( videoParent.css( 'padding-right' ) ),
+			maxWidth = videoParentWidth - videoParentBorder - videoParentPadding;
+
+			if( videoWidth > maxWidth ) {
+				var videoHeight = video.attr('height'),
+				videoMaxHeight = ( maxWidth / videoWidth * videoHeight );
+				video.attr({ width: maxWidth, height: videoMaxHeight });
+			} 
+
+		});	
+	}
+	bfa_resize_video();
+	jQuery(window).resize( bfa_resize_video );
+
+		
+	jQuery(".post table tr").
+		mouseover(function() {
+			jQuery(this).addClass("over");
+		}).
+		mouseout(function() {
+			jQuery(this).removeClass("over");
+		});
+
+	
+	jQuery(".post table tr:even").
+		addClass("alt");
+
+	
+	jQuery("input.text, input.TextField, input.file, input.password, textarea").
+		focus(function () {  
+			jQuery(this).addClass("highlight"); 
+		}).
+		blur(function () { 
+			jQuery(this).removeClass("highlight"); 
+		})
+	
+	jQuery("input.inputblur").
+		focus(function () {  
+			jQuery(this).addClass("inputfocus"); 
+		}).
+		blur(function () { 
+			jQuery(this).removeClass("inputfocus"); 
+		})
+
+		
+
+	
+	jQuery("input.button, input.Button, input#submit").
+		mouseover(function() {
+			jQuery(this).addClass("buttonhover");
+		}).
+		mouseout(function() {
+			jQuery(this).removeClass("buttonhover");
+		});
+
+	/* toggle "you can use these xhtml tags" */
+	jQuery("a.xhtmltags").
+		click(function(){ 
+			jQuery("div.xhtml-tags").slideToggle(300); 
+		});
+
+	/* For the Tabbed Widgets plugin: */
+	jQuery("ul.tw-nav-list").
+		addClass("clearfix");
+
+		
+	
+});
+
+//]]>
+</script>
+<style type="text/css">.recentcomments a{display:inline !important;padding:0 !important;margin:0 !important;}</style></head>
+<body class="page-template-default page page-id-3644" >
+
+<div id="wrapper">
+<div id="container">
+<table id="layout" border="0" cellspacing="0" cellpadding="0">
+<colgroup>
+<col class="coltwo" />
+<col class="colthree" /></colgroup> 
+
+
+	<tr>
+
+		<!-- Header -->
+		<td id="header" colspan="2">
+
+		<div class="horbar1">&nbsp;</div> <div id="imagecontainer-pre" class="header-image-container-pre">    <div id="imagecontainer" class="header-image-container" style="background: url('http://pagine.dm.unipi.it/csblog1/wp-content/Saccon-images/header/header_2_csax.png') top center no-repeat;"></div><div class="codeoverlay"></div><div class="opacityleft">&nbsp;</div><div class="opacityright">&nbsp;</div></div>  <div class="horbar2">&nbsp;</div> <div id="menu1"><ul id="rmenu2" class="clearfix rMenu-hor rMenu">
+<li class="page_item"><a href="http://pagine.dm.unipi.it/csblog1/" title="Pagina per la didattica del prof. Claudio Saccon"><span>Home</span></a></li>
+<li class="page_item page-item-4042"><a href="http://pagine.dm.unipi.it/csblog1/lezioni-di-analisi-2-a-a-2022-23/"><span>LEZIONI DI ANALISI 2 A.A. 2022-23</span></a></li>
+<li class="page_item page-item-3644 current_page_item"><a href="http://pagine.dm.unipi.it/csblog1/lezioni-di-analisi-2-a-a-2021-22/" aria-current="page"><span>LEZIONI DI ANALISI 2    A.A. 2021-22</span></a></li>
+<li class="page_item page-item-3801"><a href="http://pagine.dm.unipi.it/csblog1/lezioni-di-analisi-convessa-2022/"><span>Lezioni di Analisi Convessa 2022</span></a></li>
+<li class="page_item page-item-3265"><a href="http://pagine.dm.unipi.it/csblog1/lezioni-analisi-2-2020-21/"><span>Lezioni Analisi 2 2020-21</span></a></li>
+<li class="page_item page-item-3392"><a href="http://pagine.dm.unipi.it/csblog1/lezioni-di-analisi-convessa-2020-21/"><span>Lezioni di Analisi Convessa 2020-21</span></a></li>
+<li class="page_item page-item-3056"><a href="http://pagine.dm.unipi.it/csblog1/lezioni-di-analisi-2-2019-2020/"><span>Lezioni di Analisi 2 2019-2020</span></a></li>
+<li class="page_item page-item-2869"><a href="http://pagine.dm.unipi.it/csblog1/lezioni-di-analisi-2018-2019/"><span>Lezioni di Analisi  2018-2019</span></a></li>
+<li class="page_item page-item-2674"><a href="http://pagine.dm.unipi.it/csblog1/lezioni-di-analisi-2-a-a-2017-2018/"><span>Lezioni di Analisi 2  A.A.  2017-2018</span></a></li>
+<li class="page_item page-item-2462"><a href="http://pagine.dm.unipi.it/csblog1/corso-di-analisi-2/"><span>Corso di Analisi 2</span></a></li>
+<li class="page_item page-item-1695"><a href="http://pagine.dm.unipi.it/csblog1/lezioni-di-analisi-1-2012-2013/"><span>Lezioni di Analisi 1 2012-2013</span></a></li>
+<li class="page_item page-item-2475"><a href="http://pagine.dm.unipi.it/csblog1/materiale-didattico-per-analisi-2/"><span>Materiale Didattico Per Analisi 2</span></a></li>
+<li class="page_item page-item-1978"><a href="http://pagine.dm.unipi.it/csblog1/lezioni-di-analisi-ii-2013-14/"><span>Lezioni di Analisi Due 2013-14</span></a></li>
+<li class="page_item page-item-1246"><a href="http://pagine.dm.unipi.it/csblog1/lezioni-di-analisi-uno-2011-12/"><span>Lezioni di Analisi Uno 2011-12</span></a></li>
+<li class="page_item page-item-2544"><a href="http://pagine.dm.unipi.it/csblog1/lezioni-di-analisi-2-2015-2016/"><span>Lezioni di Analisi 2 2015-2016</span></a></li>
+<li class="page_item page-item-979"><a href="http://pagine.dm.unipi.it/csblog1/lezioni-di-complementi-di-matematica-2011/"><span>Lezioni di Complementi di Matematica 2011</span></a></li>
+<li class="page_item page-item-2059"><a href="http://pagine.dm.unipi.it/csblog1/compiti-di-analisi-2/"><span>Compiti di Analisi 2</span></a></li>
+<li class="page_item page-item-760"><a href="http://pagine.dm.unipi.it/csblog1/compiti-di-analisi-uno-ing-civile-ed-edile/"><span>Compiti di Analisi Uno (ing. civile ed edile)</span></a></li>
+<li class="page_item page-item-115"><a href="http://pagine.dm.unipi.it/csblog1/compiti-di-analisi-uno-ing-aerospaziale/"><span>Compiti di Analisi Uno (Ing. Aerospaziale)</span></a></li>
+<li class="page_item page-item-100"><a href="http://pagine.dm.unipi.it/csblog1/compiti-di-di-complementi-di-matematica/"><span>Compiti  di Complementi di Matematica</span></a></li>
+<li class="page_item page-item-147"><a href="http://pagine.dm.unipi.it/csblog1/compiti-di-matematica-ing-gestionale/"><span>Compiti di Matematica (Ing. Gestionale)</span></a></li>
+<li class="page_item page-item-237"><a href="http://pagine.dm.unipi.it/csblog1/vecchie-lezioni-e-altro-materiale/"><span>VECCHIE LEZIONI E ALTRO MATERIALE</span></a></li>
+</ul></div>
+
+		</td>
+		<!-- / Header -->
+
+	</tr>
+	<!-- Main Body -->	
+	<tr id="bodyrow">
+
+		
+				
+
+		<!-- Main Column -->
+		<td id="middle">
+
+    
+		
+		
+								<div class="post post-3644 page type-page status-publish hentry odd" id="post-3644">
+						<div class="post-headline"><h1>LEZIONI DI ANALISI 2    A.A. 2021-22</h1></div>				<div class="post-bodycopy clearfix">
+<p>I VIDEO VENGONO CARICATI CON UN CERTO RITARDO<br></p>
+
+
+
+<p>Lezione<strong> 01 (27/09/21)</strong> Richiami su spazi vettoriali e applicazioni lineari.<a href="http://users.dma.unipi.it/saccon/LEZIONI/A2_21_22/2021-09-27-A2-lezione-01.pdf"> scarica pdf</a> / <a href="https://drive.google.com/file/d/1heSjIM-cn3D0B0ZZecgd_dtEYXLALjqL/view?usp=sharing">video</a></p>
+
+
+
+<p>Lezione<strong> 02 (28/09/21)</strong> Cambi di base. Applicazioni Lineari e forme quadratiche<a href="http://users.dma.unipi.it/saccon/LEZIONI/A2_21_22/2021-09-28-A2-lezione-02.pdf"> scarica pdf</a> / <a href="https://drive.google.com/file/d/1wbgrD3TndBZSKkQCN799i4qUjH26izjv/view?usp=sharing">video</a></p>
+
+
+
+<p>Lezione<strong> 03 (29/09/21)</strong> Prodotti scalari. Disuguaglianza di Schwartz. Teorema spettrale.<a href="http://users.dma.unipi.it/saccon/LEZIONI/A2_21_22/2021-09-29-A2-lezione-03.pdf"> scarica pdf</a> / <a href="https://drive.google.com/file/d/1PX7r9aCuKOdj-1v1hu06TMvb6iQueyJ3/view?usp=sharing">video</a></p>
+
+
+
+<p>Lezione<strong> 04 (04/10/21)</strong> Criterio di Sylvester &#8211; esempi. Spazi normati, parte interna, parte esterna e frontiera di un insieme.<a href="http://users.dma.unipi.it/saccon/LEZIONI/A2_21_22/2021-10-04-A2-lezione-04.pdf"> scarica pdf</a> / <a href="https://drive.google.com/file/d/18LAyWTD6atjbmftKt0WLL7vI0APRo-3d/view?usp=sharing">video</a></p>
+
+
+
+<p>Lezione<strong> 05 (05/10/21)</strong> Proprietà di aperti, chiusi, parte  interna, chiusura e frontiera. Punti di accumulazione e definizione di limite.<a href="http://users.dma.unipi.it/saccon/LEZIONI/A2_21_22/2021-10-05-A2-lezione-05.pdf"> scarica pdf</a> / <a href="https://drive.google.com/file/d/1ntS_za5ekI_TgTQhMSZc4nT11QzQbaP8/view?usp=sharing">video</a></p>
+
+
+
+<p>Lezione<strong> 06 (06/010/21)</strong> Proprietà dei limiti. Limiti infiniti. Alcuni esempi.<a href="http://users.dma.unipi.it/saccon/LEZIONI/A2_21_22/2021-10-06-A2-lezione-06.pdf"> scarica pdf</a> / <a href="https://drive.google.com/file/d/1v5PIpinXZS2VglHFnA7MmLpi9aUJEtf1/view?usp=sharing">video</a></p>
+
+
+
+<p>Lezione<strong> 07 (11/10/21)</strong> Esercizi sui limiti.<a href="http://users.dma.unipi.it/saccon/LEZIONI/A2_21_22/2021-10-11-A2-lezione-07.pdf"> scarica pdf</a> / <a href="https://drive.google.com/file/d/13Xbh_2zW-m-eqtAh6jfQPOGi5wmLColh/view?usp=sharing">video</a></p>
+
+
+
+<p>Lezione<strong> 08 (12/10/21)</strong> Successioni.<a href="http://users.dma.unipi.it/saccon/LEZIONI/A2_21_22/2021-10-12-A2-lezione-08.pdf"> scarica pdf</a> / <a href="https://drive.google.com/file/d/1_0FtIutevO99A-beuowRPbzVF_4defyG/view?usp=sharing">video</a></p>
+
+
+
+<p>Lezione<strong> 09 (13/10/21)</strong> Funzioni continue e loro proprietà. Teorema di Weierstrass. Esempi: la norma di una matrice è un massimo;minimo di una forma quadratica sulla sfera .<a href="http://users.dma.unipi.it/saccon/LEZIONI/A2_21_22/2021-10-13-A2-lezione-09.pdf"> scarica pdf</a> / <a href="https://drive.google.com/file/d/1HCCHzxVR-cPlfDB9rj_4TI7xIEI8vRZW/view?usp=sharing">video</a></p>
+
+
+
+<p>Lezione<strong> 10 (18/10/21)</strong> Completezza. Serie assolutamente convergenti. Teorema delle contrazioni.<a href="http://users.dma.unipi.it/saccon/LEZIONI/A2_21_22/2021-10-18-A2-lezione-10.pdf"> scarica pdf</a> / <a href="https://drive.google.com/file/d/1VzwynBZ773nThi2q6hl5sVrETdGo5fV1/view?usp=sharing">video</a></p>
+
+
+
+<p>Lezione<strong> 11 (19/10/21)</strong> Curve. Riparametrizzazioni.<a href="http://users.dma.unipi.it/saccon/LEZIONI/A2_21_22/2021-10-19-A2-lezione-11.pdf"> scarica pdf</a> / <a href="https://drive.google.com/file/d/1yJk0bG05tbYFGKqCwuGsjcizE4tPp6CE/view?usp=sharing">video</a></p>
+
+
+
+<p>Lezione<strong> 12 (20/10/21)</strong> Curve regolari a tratti. Integrali curvilinei di prima specie. Indipendenza dell&#8217;integrale dalla parametrizzazione.<a href="http://users.dma.unipi.it/saccon/LEZIONI/A2_21_22/2021-10-20-A2-lezione-12.pdf"> scarica pdf</a> / <a href="https://drive.google.com/file/d/1Nsh4FKUfNqxzcY0PusT_P52F01V-vdYd/view?usp=sharing">video</a></p>
+
+
+
+<p>Lezione<strong> 13 (25/10/21)</strong>. Esempi di curve (spirali) Integrale di seconda specie.<a href="http://users.dma.unipi.it/saccon/LEZIONI/A2_21_22/2021-10-25-A2-lezione-13.pdf"> scarica pdf</a> / <a href="https://drive.google.com/file/d/1Ztp0vpseF3IYq2QBIvWoCjQJmT-EA97I/view?usp=sharing">video</a></p>
+
+
+
+<p>Lezione<strong> 14 (26/10/21)</strong> Curve come sottoinsiemi.<a href="http://users.dma.unipi.it/saccon/LEZIONI/A2_21_22/2021-10-26-A2-lezione-14.pdf"> scarica pdf</a> / <a href="https://drive.google.com/file/d/1t-M7lAa4E1OYgSdwt3SJngssOvuqc3oZ/view?usp=sharing">video</a></p>
+
+
+
+<p>Lezione<strong> 15 (27/10/21)</strong> Esempi di curve con lunghezza infinita. Derivate direzionali.<a href="http://users.dma.unipi.it/saccon/LEZIONI/A2_21_22/2021-10-27-A2-lezione-15.pdf"> scarica pdf</a> / <a href="https://drive.google.com/file/d/1P2uOJNGhLoyTs5h8d4V0_jCSAn3VM86t/view?usp=sharing">video</a></p>
+
+
+
+<p>Lezione<strong> 16 (02/11/21)</strong> Differenziale.<a href="http://users.dma.unipi.it/saccon/LEZIONI/A2_21_22/2021-11-02-A2-lezione-16.pdf"> scarica pdf</a> / <a href="https://drive.google.com/file/d/1Hjgh7zCwmtgQhkrcpA7miF-IU1vaMb4E/view?usp=sharing">video</a></p>
+
+
+
+<p>Lezione<strong> 17 (03/11/21)</strong> Matrice Jacobiana e gradiente. Teorema del differenziale totale. Esempi e controesempi vari .<a href="http://users.dma.unipi.it/saccon/LEZIONI/A2_21_22/2021-11-03-A2-lezione-17.pdf"> scarica pdf</a> / <a href="https://drive.google.com/file/d/1pdfGvR_ChThES1yirGm23WM5YizN3cDX/view?usp=sharing">video</a></p>
+
+
+
+<p>Lezione<strong> 18 (08/11/21)</strong> Calcolo dei differenziali.<a href="http://users.dma.unipi.it/saccon/LEZIONI/A2_21_22/2021-11-08-A2-lezione-18.pdf"> scarica pdf</a> / <a href="https://drive.google.com/file/d/1-vYrP5DJExYJ5b0a2xk1EnCIzjHS-aZ8/view?usp=sharing">video</a></p>
+
+
+
+<p>Lezione<strong> 19 (09/11/21)</strong> Esercizio su massimi e minimi.<a href="http://users.dma.unipi.it/saccon/LEZIONI/A2_21_22/2021-11-09-A2-lezione-19.pdf"> scarica pdf</a> / <a href="https://drive.google.com/file/d/1s6r9WIPdCEnYKZEK0tWiMu-ernK70Ins/view?usp=sharing">video</a></p>
+
+
+
+<p>Lezione<strong> 20 (10/11/21)</strong> Esercizi su massimi e minimi (senza usare  l&#8217;Hessiano). Derivate secondo e differenziale secondo.<a href="http://users.dma.unipi.it/saccon/LEZIONI/A2_21_22/2021-11-10-A2-lezione-20.pdf"> scarica pdf</a> / <a href="https://drive.google.com/file/d/1kMYiCkfjsGdHDS7lHbyPDgetAHFhba9Y/view?usp=sharing">video</a></p>
+
+
+
+<p>Lezione<strong> 21 (15/11/21)</strong> Derivate di ordine arbitrario. Multiindici.<a href="http://users.dma.unipi.it/saccon/LEZIONI/A2_21_22/2021-11-15-A2-lezione-21.pdf"> scarica pdf</a> / <a href="https://drive.google.com/file/d/12v8HEIQ3jSE5cgNiQsvIF8Vcx1VyxuWP/view?usp=sharing">video</a></p>
+
+
+
+<p>Lezione<strong> 22 (16/11/21)</strong> Formula di Taylor. Uso della matrice Hessiana per lo studio dei punti critici.<a href="http://users.dma.unipi.it/saccon/LEZIONI/A2_21_22/2021-11-16-A2-lezione-22.pdf"> scarica pdf</a> / <a href="https://drive.google.com/file/d/1Bx1qDwo4EJPjL3CMV5xkIHu7LUIhXBo5/view?usp=sharing">video</a></p>
+
+
+
+<p>Lezione<strong> 23 (17/11/21)</strong> Funzioni convesse. Esercizi sulla classificazione dei punti critici mediante la matrice Hessiana.<a href="http://users.dma.unipi.it/saccon/LEZIONI/A2_21_22/2021-11-17-A2-lezione-23.pdf"> scarica pdf</a> / <a href="https://drive.google.com/file/d/12jDkjVLq7l7ODDP1gpfN-fJyWYneFjcs/view?usp=sharing">video</a></p>
+
+
+
+<p>Lezione<strong> 24 (22/11/21)</strong> Teorema di inversione locale. Esercizi sulla formula di Taylor.<a href="http://users.dma.unipi.it/saccon/LEZIONI/A2_21_22/2021-11-22-A2-lezione-24.pdf"> scarica pdf</a> / <a href="https://drive.google.com/file/d/1Q6msW1pfc2R2VP_Oh_heRVvE_Rob8Vmv/view?usp=sharing">video</a></p>
+
+
+
+<p>Lezione<strong> 25 (23/11/21)</strong> Esercizi su Taylor e sulla differenziabilità.<a href="http://users.dma.unipi.it/saccon/LEZIONI/A2_21_22/2021-11-23-A2-lezione-25.pdf"> scarica pdf</a> / <a href="https://drive.google.com/file/d/1fUWTX1lYA8CpE3jTygb-mEzYDnFiOUjW/view?usp=sharing">video</a></p>
+
+
+
+<p>Lezione<strong> 26 (24/11/21)</strong> Teorema del Dini versione base.<a href="http://users.dma.unipi.it/saccon/LEZIONI/A2_funzioni.  scarica pdf / video21_22/2021-11-24-A2-lezione-26.pdf"> scarica pdf</a> / <a href="https://drive.google.com/file/d/1qP1fX1WB9evjoorIeOk6JNcJurAiYZij/view?usp=sharing">video</a></p>
+
+
+
+<p>Lezione<strong> 27 (29/11/21)</strong> Teorema del Dini versione generale. Esempio. Caratterizzazione dei vettori tangenti..<a href="http://users.dma.unipi.it/saccon/LEZIONI/A2_21_22/2021-11-29-A2-lezione-27.pdf"> scarica pdf</a> / <a href="https://drive.google.com/file/d/1tsXk3O1eWtZi-_x-m61j0yzd7sCZ3bLP/view?usp=sharing">video</a></p>
+
+
+
+<p>Lezione<strong> 28 (30/11/21)</strong> Teorema del Dini nel caso lineare. Punti di un sottospazio di minima distanza da un punto.<a href="http://users.dma.unipi.it/saccon/LEZIONI/A2_21_22/2021-11-30-A2-lezione-28.pdf"> scarica pdf</a> / <a href="https://drive.google.com/file/d/1wAX0H3eB6NGqvo7FADu_hEbiszYoiLnh/view?usp=sharing">video</a></p>
+
+
+
+<p>Lezione<strong> 29 (01/12/21)</strong> Vincoli bilateri e Teorema dei moltiplicatori di Lagrange.<a href="http://users.dma.unipi.it/saccon/LEZIONI/A2_21_22/2021-12-01-A2-lezione-29.pdf"> scarica pdf</a> / <a href="https://drive.google.com/file/d/1-d4XOA3JwrBSLVwktOjUUSQ4U7pni_GG/view?usp=sharing">video</a></p>
+
+
+
+<p>Lezione<strong> 30 (06/12/21)</strong> Esercizi sui moltiplicatori di Lagrange.<a href="http://users.dma.unipi.it/saccon/LEZIONI/A2_21_22/2021-12-06-A2-lezione-30.pdf"> scarica pdf</a> / <a href="https://drive.google.com/file/d/1R8gpaua0wO5kjAbj7n97gOPjCFhCyhQ5/view?usp=sharing">video</a></p>
+
+
+
+<p>Lezione<strong> 31 (07/12/21)</strong> Domini regolari a tratti e relativo teorema dei moltiplicatori.<a href="http://users.dma.unipi.it/saccon/LEZIONI/A2_21_22/2021-12-07-A2-lezione-31.pdf"> scarica pdf</a> / <a href="https://drive.google.com/file/d/1ogpy9GuEG6DxnVNks9aKKNQN1JLRnoz_/view?usp=sharing">video</a></p>
+
+
+
+<p>Lezione<strong> 32 (13/12/21)</strong> Un esempio di ricerca dei massimi/minimi in un domino regolare a tratti. Insiemi misurabili secondo Peano e secondo Lebesgue: definizioni e proprietà <a href="http://users.dma.unipi.it/saccon/LEZIONI/A2_21_22/2021-12-13-A2-lezione-32.pdf"> scarica pdf</a> / <a href="https://drive.google.com/file/d/1kFQQK9hfjP6MhwaQA97ml9ESj9Q0AWdW/view?usp=sharing">video</a></p>
+
+
+
+<p>Lezione<strong> 33 (14/12/21)</strong> Funzioni  misurabili e integrabili. Insiemi trascurabili. Teoremi di Fubini/Tonelli.<a href="http://users.dma.unipi.it/saccon/LEZIONI/A2_21_22/2021-12-14-A2-lezione-33.pdf"> scarica pdf</a> / <a href="https://drive.google.com/file/d/1dbVhrd3fErFpTHwLbFzj0a6KKbzH3pdO/view?usp=sharing">video</a></p>
+
+
+
+<p>Lezione<strong> 34 (15/12/21)</strong> Teorema di Cambio di Variabile. Esercizi di integrazione.<a href="http://users.dma.unipi.it/saccon/LEZIONI/A2_21_22/2021-12-15-A2-lezione-34.pdf"> scarica pdf</a> / <a href="https://drive.google.com/file/d/1YIg9VFFgpEOMW9giSIvgDIyoF0gD0dmK/view?usp=sharing">video</a></p>
+
+
+
+<p>Lezione<strong> 35 (28/02/22)</strong> Esercizi di integrazione.<a href="http://users.dma.unipi.it/saccon/LEZIONI/A2_21_22/2022-02-28-a2-lezione-35.pdf"> scarica pdf</a> / <a href="https://drive.google.com/file/d/1CfRlDGr2w53XrzyGuMO2SijXiALFVzVR/view?usp=sharing">video</a></p>
+
+
+
+<p>Lezione<strong> 36 (01/03/22)</strong> Teorema di Lebesgue. Esercizi di integrazione.<a href="http://users.dma.unipi.it/saccon/LEZIONI/A2_21_22/2022-03-01-a2-lezione-36.pdf"> scarica pdf</a> / <a href="https://drive.google.com/file/d/1CloZdxbZJcVRtsQsTIMHBzkCNwIoI_Ph/view?usp=sharing">video</a></p>
+
+
+
+<p>Lezione<strong> 37 (02/03/22)</strong> Convergenza puntuale e uniforme per successioni di funzioni.<a href="http://users.dma.unipi.it/saccon/LEZIONI/A2_21_22/2022-03-02-a2-lezione-37.pdf"> scarica pdf</a> / <a href="https://drive.google.com/file/d/1R4zuaLp4GGn_IpIXeMrMN7aX1lHcMAJf/view?usp=sharing">video</a></p>
+
+
+
+<p>Lezione<strong> 38 (07/03/22)</strong> Passaggi al limite di derivata e integrale rispetto alla convergenza uniforme.<a href="http://users.dma.unipi.it/saccon/LEZIONI/A2_21_22/2022-03-07-a2-lezione-38.pdf"> scarica pdf</a> / <a href="https://drive.google.com/file/d/1CdOu9nM27_qsgda-e6tl5ZPFFZhbFnh9/view?usp=sharing">video</a></p>
+
+
+
+<p>Lezione<strong> 39 (08/03/22)</strong> Convergenza totale. Teoremi sulle serie di funzioni. Svolgimento di un esercizio sulle serie di funzioni. <a href="http://users.dma.unipi.it/saccon/LEZIONI/A2_21_22/2022-03-08-a2-lezione-39.pdf"> scarica pdf</a> / <a href="https://drive.google.com/file/d/1h2C1iin0mH2XJkXBIAo3EuU28lS9ee4Z/view?usp=sharing">video</a></p>
+
+
+
+<p>Lezione<strong> 40 (09/03/22)</strong> Serie di potenze. Raggio di convergenza. <a href="http://users.dma.unipi.it/saccon/LEZIONI/A2_21_22/2022-03-09-a2-lezione-40.pdf"> scarica pdf</a> / <a href="https://drive.google.com/file/d/1XB6rId44L9yK8yLYeWtg_0nGmY8TeHLF/view?usp=sharing">video</a></p>
+
+
+
+<p>Lezione<strong> 41 (14/03/22)</strong> Esercizi in vista del compitino <a href="http://users.dma.unipi.it/saccon/LEZIONI/A2_21_22/2022-03-14-a2-lezione-41.pdf"> scarica pdf</a> / <a href="https://drive.google.com/file/d/1OvAZybFkhw_dawoV0XoHM9ECuVlHLee7/view?usp=sharing">video</a></p>
+
+
+
+<p>Lezione<strong> 42 (15/03/22)</strong> Esercizi in vista del compitino. Derivata delle serie di potenze. <a href="http://users.dma.unipi.it/saccon/LEZIONI/A2_21_22/2022-03-15-a2-lezione-42.pdf">scarica pdf</a> / <a href="https://drive.google.com/file/d/1TvU9iEftq_fjb7AO1AdimdeOyRBt21fe/view?usp=sharing">video</a></p>
+
+
+
+<p>Lezione<strong> 43 (16/03/22)</strong> Esponenziale complesso. Funzioni analitiche. <a href="http://users.dma.unipi.it/saccon/LEZIONI/A2_21_22/2022-03-16-a2-lezione-43.pdf"> scarica pdf</a> / <a href="https://drive.google.com/file/d/1ysf4n9MTsPaOFOVjGpoUtzdwl-TTBDRO/view?usp=sharing">video</a></p>
+
+
+
+<p>Lezione<strong> 44 (21/03/22)</strong> Risoluzione per serie di equazioni differenziali lineari <a href="http://users.dma.unipi.it/saccon/LEZIONI/A2_21_22/2022-03-21-a2-lezione-44.pdf"> scarica pdf</a> / <a href="https://drive.google.com/file/d/1irh1OYNFx2OfhbJIdglqAum5rw8DX-pj/view?usp=sharing">video</a></p>
+
+
+
+<p>Lezione<strong> 45 (22/03/22)</strong> Serie di Fourier <a href="http://users.dma.unipi.it/saccon/LEZIONI/A2_21_22/2022-03-22-a2-lezione-45.pdf"> scarica pdf</a> / <a href="https://drive.google.com/file/d/1jUaLjSj3FUKkep_m96rkWUqr-73J1tYJ/view?usp=sharing">video</a></p>
+
+
+
+<p>Lezione<strong> 46 (23/03/22)</strong> Alcuni esempi di sviluppi secondo Fourier. <a href="http://users.dma.unipi.it/saccon/LEZIONI/A2_21_22/2022-03-23-a2-lezione-46.pdf"> scarica pdf</a> / <a href="xxx">video</a></p>
+
+
+
+<p>Lezione<strong> 47 (28/03/22)</strong> Serie di Fourier: regolarità in relazione alla sommabilità dei coefficienti. (1h) <a href="http://users.dma.unipi.it/saccon/LEZIONI/A2_21_22/2022-03-28-a2-lezione-47.pdf"> scarica pdf</a> / <a href="https://drive.google.com/file/d/1hbJG7XGMYXm3U3nePhxFsXA86UWL2D_U/view?usp=sharing">video</a></p>
+
+
+
+<p>Lezione<strong> 48 (29/03/22)</strong> Serie di Fourier nell&#8217;ambito delle funzioni a energia finita <a href="http://users.dma.unipi.it/saccon/LEZIONI/A2_21_22/2022-03-29-a2-lezione-48.pdf"> scarica pdf</a> / <a href="https://drive.google.com/file/d/15SJRpfBujYSpDviVF1MaCBA8Ovolmdhq/view?usp=sharing">video</a></p>
+
+
+
+<p>Lezione<strong> 49 (30/03/22)</strong> Sviluppi di Fourier su un intervallo (in seni o in coseni).  <a href="http://users.dma.unipi.it/saccon/LEZIONI/A2_21_22/2022-03-30-a2-lezione-49.pdf"> scarica pdf</a> / <a href="https://drive.google.com/file/d/17863twuztsoTxdLLVHV4ZNjN76W4Qder/view?usp=sharing">video</a></p>
+
+
+
+<p>Lezione<strong> 50 (04/04/22)</strong> Risoluzione per serie di equazioni differenziali con condizioni al bordo. <a href="http://users.dma.unipi.it/saccon/LEZIONI/A2_21_22/2022-04-04-a2-lezione-50.pdf"> scarica pdf</a> / <a href="https://drive.google.com/file/d/1zHlKhwycQ5KvuCpAnlp559WRh6VR50EI/view?usp=sharing">video</a></p>
+
+
+
+<p>Lezione<strong> 51 (05/04/22)</strong> Campi conservativi. Caratterizzazione mediante gli integrali curvilinei. Campi irrotazionali <a href="http://users.dma.unipi.it/saccon/LEZIONI/A2_21_22/2022-04-05-a2-lezione-51.pdf"> scarica pdf</a> / <a href="https://drive.google.com/file/d/1SO-SSPe5yM2FLVIk7mWcjDpgStzW67Fi/view?usp=sharing">video</a></p>
+
+
+
+<p>Lezione<strong> 52 (06/04/22)</strong> Omotopie. Integrali di campi irrotazionali su curve omotope.   <a href="http://users.dma.unipi.it/saccon/LEZIONI/A2_21_22/2022-04-06-a2-lezione-52.pdf"> scarica pdf</a> / <a href="https://drive.google.com/file/d/1DytL8YbhuTlCBKERD835KYOrul5Uz5Fb/view?usp=sharing">video</a></p>
+
+
+
+<p>Lezione<strong> 53 (11/04/22)</strong> Dimostrazione dell&#8217;invarianza dell&#8217;integrale di un campo irrotazionale su curve omotope. Insiemi stellati. Esempi. Campi solenoidali e potenziale vettore.  <a href="http://users.dma.unipi.it/saccon/LEZIONI/A2_21_22/2022-04-11-a2-lezione-53.pdf"> scarica pdf</a> / <a href="https://drive.google.com/file/d/1I_1YfZS-e9_Avi57X6RvDB5fzMUZzQQB/view?usp=sharing">video</a></p>
+
+
+
+<p>Lezione<strong> 54 (12/04/22)</strong> Esempio di calcolo del potenziale vettore. Superfici parametriche. <a href="http://users.dma.unipi.it/saccon/LEZIONI/A2_21_22/2022-04-12-a2-lezione-54.pdf"> scarica pdf</a> / <a href="https://drive.google.com/file/d/11bKl-feGH3KxVkPrqKtxeeBLAKnvUdRD/view?usp=sharing">video</a></p>
+
+
+
+<p>Lezione<strong> 55 (13/04/22)</strong> Integrali superficiali di prima specie <a href="http://users.dma.unipi.it/saccon/LEZIONI/A2_21_22/2022-04-13-a2-lezione-55.pdf"> scarica pdf</a> / <a href="https://drive.google.com/file/d/1vYsLAGNMgT4SaY4fPUIvZ-DmCZfz6U_v/view?usp=sharing">video</a></p>
+
+
+
+<p>Lezione<strong> 56 (26/04/22)</strong> Esempi di integrali di superficie e di indipendenza dalla parametrizzazione. Superfici parametrizzabili orientate e verso del bordo. <a href="http://users.dma.unipi.it/saccon/LEZIONI/A2_21_22/2022-04-26-a2-lezione-56.pdf"> scarica pdf</a> / <a href="https://drive.google.com/file/d/1Jt6MT1XUvpN9OXd5WOvkb5JoemTBbC8N/view?usp=sharing">video</a></p>
+
+
+
+<p>Lezione<strong> 57 (27/04/22)</strong> Esempi di calcolo di un flusso. Definizione generale di superficie <a href="http://users.dma.unipi.it/saccon/LEZIONI/A2_21_22/2022-04-27-a2-lezione-57.pdf"> scarica pdf</a> / <a href="https://drive.google.com/file/d/1LLFiIUf1XaWVGhVtrvSvCbML-_3sem4y/view?usp=sharing">video</a></p>
+
+
+
+<p>Lezione<strong> 58 (29/04/22)</strong> Risoluzione del terzo compitino dell&#8217;anno scorso. <a href="http://users.dma.unipi.it/saccon/LEZIONI/A2_21_22/2022-04-29-a2-lezione-58.pdf"> scarica pdf</a> / <a href="https://drive.google.com/file/d/1oKQtM2vcg8IBaM0QxD7vOS1u_Wwi6_O3/view?usp=sharing">video</a></p>
+
+
+
+<p>Lezione<strong> 59 (02/05/22)</strong> Esercizi in vista del compitino <a href="http://users.dma.unipi.it/saccon/LEZIONI/A2_21_22/2022-05-02-a2-lezione-59.pdf"> scarica pdf</a> / <a href="https://drive.google.com/file/d/1k-0lVkSw_UtoDD7BFM9Z7vw287yNlDG4/view?usp=sharing">video</a></p>
+
+
+
+<p>Lezione<strong> 60 (03/05/22)</strong> Superfici orientabili e flussi <a href="http://users.dma.unipi.it/saccon/LEZIONI/A2_21_22/2022-05-03-a2-lezione-60.pdf"> scarica pdf</a> / <a href="https://drive.google.com/file/d/1JdsMMxWpFS9OABuBoFlDz6Z09N3Q5mY2/view?usp=sharing">video</a></p>
+
+
+
+<p>Lezione<strong> 61 (04/05/22)</strong> Altri esercizi invista del compitino <a href="http://users.dma.unipi.it/saccon/LEZIONI/A2_21_22/2022-05-04-a2-lezione-61.pdf"> scarica pdf</a> / <a href="https://drive.google.com/file/d/16i5NjpBrPWFnJfVK93pupzRfP3OjEFjf/view?usp=sharing">video</a></p>
+
+
+
+<p>Lezione<strong> 62 (09/05/22)</strong> Teorema della divergenza <a href="http://users.dma.unipi.it/saccon/LEZIONI/A2_21_22/2022-05-09-a2-lezione-62.pdf"> scarica pdf</a> / <a href="https://drive.google.com/file/d/1K0xyymebKhAUYUg8eMunwW13MAQdIXmr/view?usp=sharing">video</a></p>
+
+
+
+<p>Lezione<strong> 63 (10/05/22)</strong> Teorema di Stokes <a href="http://users.dma.unipi.it/saccon/LEZIONI/A2_21_22/2022-05-10-a2-lezione-63.pdf"> scarica pdf</a> / <a href="https://drive.google.com/file/d/1ij1MHHY2FNLZMXjiRbQyyeOFetolvtFk/view?usp=sharing">video</a></p>
+
+
+
+<p>Lezione<strong> 64 (11/05/22)</strong> Sistemi di equazioni differenziali. Teorema di esistenza e unicità di Cauchy. Esistenza massimale. <a href="http://users.dma.unipi.it/saccon/LEZIONI/A2_21_22/2022-05-11-a2-lezione-64.pdf"> scarica pdf</a> / <a href="https://drive.google.com/file/d/17eGa8YmhrOsvDoa-kZi7LF3ABTPI-yw5/view?usp=sharing">video</a></p>
+
+
+
+<p>Lezione<strong> 65 (16/05/22)</strong> Sistemi di Equazioni Differenziali Lineari <a href="http://users.dma.unipi.it/saccon/LEZIONI/A2_21_22/2022-05-16-a2-lezione-65.pdf"> scarica pdf</a> / <a href="https://drive.google.com/file/d/16RNs4by5lIYfJ99N9-J4rvcIqBznIbhK/view?usp=sharing">video</a></p>
+
+
+
+<p>Lezione<strong> 66 (17/05/22)</strong> Esponenziale di una matrice. Forma di Jordan. <a href="http://users.dma.unipi.it/saccon/LEZIONI/A2_21_22/2022-05-17-a2-lezione-66.pdf"> scarica pdf</a> / <a href="https://drive.google.com/file/d/1ekpZyCotARFoMWpC7MvXtLckcq_d3qO6/view?usp=sharing">video</a></p>
+
+
+
+<p>Lezione<strong> 67 (18/05/22)</strong> Come si trova la forma di Jordan di una matrice <a href="http://users.dma.unipi.it/saccon/LEZIONI/A2_21_22/2022-05-18-a2-lezione-67.pdf"> scarica pdf</a> / <a href="https://drive.google.com/file/d/1qFVq09HaQGr3Txy9ePrGIEjia21WQThM/view?usp=sharing">video</a></p>
+
+
+
+<p>Lezione<strong> 68 (23/05/22)</strong> Esercizi sui sistemi di eq. diff. lineari a coeff costanti   <a href="http://users.dma.unipi.it/saccon/LEZIONI/A2_21_22/2022-05-23-a2-lezione-68.pdf"> scarica pdf</a> / <a href="https://drive.google.com/file/d/1XyLwOkExpBwYcmF3ZUFxDG50FWW9eVhG/view?usp=sharing">video</a></p>
+
+
+
+<p>Lezione<strong> 69 (24/05/22)</strong> Formula per i sistema non omogeneo. Esercizi vari <a href="http://users.dma.unipi.it/saccon/LEZIONI/A2_21_22/2022-05-24-a2-lezione-69.pdf"> scarica pdf</a> / <a href="https://drive.google.com/file/d/1zR6Qt8vezjv4AQbx6sNzlO3pDuIQjDF6/view?usp=sharing">video</a></p>
+
+
+
+<p>Lezione<strong> 70 (25/05/22)</strong> Esercizi in vista del compitino <a href="http://users.dma.unipi.it/saccon/LEZIONI/A2_21_22/2022-05-25-a2-lezione-70.pdf"> scarica pdf</a> / <a href="https://drive.google.com/file/d/1HYDmmMhkjEfm59uEO15R372BDwK3EHgl/view?usp=sharing">video</a></p>
+
+
+
+<p></p>
+</div>								</div><!-- / Post -->	
+						
+	
+					
+    
+
+</td>
+<!-- / Main Column -->
+
+<!-- Right Inner Sidebar -->
+
+<!-- Right Sidebar -->
+<td id="right">
+
+	<div id="search-5" class="widget widget_search"><form method="get" class="searchform" action="http://pagine.dm.unipi.it/csblog1/">
+<table class="searchform" cellpadding="0" cellspacing="0" border="0">
+<tr>
+<td class="searchfield">
+<input type="text" class="text inputblur" value="" name="s" />
+</td>
+<td class="searchbutton">
+<input name="submit" value="Search" type="image" src="http://pagine.dm.unipi.it/csblog1/wp-content/themes/atahualpa/images/magnifier2-gray.gif" style="display: block; border:none; padding: 0 0 0 5px; margin: 0;" />
+</td>
+</tr></table>
+</form></div><div id="text-5" class="widget widget_text"><div class="widget-title"><h3>Informazioni</h3></div>			<div class="textwidget"><p>Il ricevimento si terrà di norma sulla piattaforma Teams previo appuntamento da concordare a lezione o  contattando il docente all&#8217;email indicata sotto.</p>
+<p>telefono: 050 22131878</p>
+<p>email: claudio.sacconCHIOCCIOLAunipi.it</p>
+</div>
+		</div><div id="nav_menu-4" class="widget widget_nav_menu"><div class="widget-title"><h3>Materiale Didattico</h3></div><div class="menu-materiale-didattico-container"><ul id="menu-materiale-didattico" class="menu"><li id="menu-item-4068" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-4068"><a href="http://users.dma.unipi.it/saccon/DIDA/A2/Analisi2-current.pdf">Dispensa &#8220;in progress&#8221; di Analisi 2</a></li>
+</ul></div></div><div id="nav_menu-5" class="widget widget_nav_menu"><div class="widget-title"><h3>Link Utili</h3></div><div class="menu-link_utili-container"><ul id="menu-link_utili" class="menu"><li id="menu-item-2401" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-2401"><a href="http://www.ing.unipi.it/">Scuola di Ingegneria</a></li>
+<li id="menu-item-2395" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-2395"><a href="http://calendarioesami.ing.unipi.it/">Calendario Esami</a></li>
+<li id="menu-item-2394" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-2394"><a href="http://esami.unipi.it/">Prenotazione Esami</a></li>
+<li id="menu-item-2393" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-2393"><a href="http://users.dma.unipi.it/saccon">Vecchissimo Sito</a></li>
+</ul></div></div><div id="meta-3" class="widget widget_meta"><div class="widget-title"><h3>Amministrazione</h3></div>
+		<ul>
+						<li><a href="http://pagine.dm.unipi.it/csblog1/wp-login.php">Accedi</a></li>
+			<li><a href="http://pagine.dm.unipi.it/csblog1/feed/">Feed dei contenuti</a></li>
+			<li><a href="http://pagine.dm.unipi.it/csblog1/comments/feed/">Feed dei commenti</a></li>
+
+			<li><a href="https://it.wordpress.org/">WordPress.org</a></li>
+		</ul>
+
+		</div><div id="search-4" class="widget widget_search"><form method="get" class="searchform" action="http://pagine.dm.unipi.it/csblog1/">
+<table class="searchform" cellpadding="0" cellspacing="0" border="0">
+<tr>
+<td class="searchfield">
+<input type="text" class="text inputblur" value="" name="s" />
+</td>
+<td class="searchbutton">
+<input name="submit" value="Search" type="image" src="http://pagine.dm.unipi.it/csblog1/wp-content/themes/atahualpa/images/magnifier2-gray.gif" style="display: block; border:none; padding: 0 0 0 5px; margin: 0;" />
+</td>
+</tr></table>
+</form></div><div id="pages-3" class="widget widget_pages"><div class="widget-title"><h3>Pagine</h3></div>
+			<ul>
+				<li class="page_item page-item-4042"><a href="http://pagine.dm.unipi.it/csblog1/lezioni-di-analisi-2-a-a-2022-23/">LEZIONI DI ANALISI 2 A.A. 2022-23</a></li>
+<li class="page_item page-item-3644 current_page_item"><a href="http://pagine.dm.unipi.it/csblog1/lezioni-di-analisi-2-a-a-2021-22/" aria-current="page">LEZIONI DI ANALISI 2    A.A. 2021-22</a></li>
+<li class="page_item page-item-3801"><a href="http://pagine.dm.unipi.it/csblog1/lezioni-di-analisi-convessa-2022/">Lezioni di Analisi Convessa 2022</a></li>
+<li class="page_item page-item-3265"><a href="http://pagine.dm.unipi.it/csblog1/lezioni-analisi-2-2020-21/">Lezioni Analisi 2 2020-21</a></li>
+<li class="page_item page-item-3056"><a href="http://pagine.dm.unipi.it/csblog1/lezioni-di-analisi-2-2019-2020/">Lezioni di Analisi 2 2019-2020</a></li>
+<li class="page_item page-item-3392"><a href="http://pagine.dm.unipi.it/csblog1/lezioni-di-analisi-convessa-2020-21/">Lezioni di Analisi Convessa 2020-21</a></li>
+<li class="page_item page-item-2462"><a href="http://pagine.dm.unipi.it/csblog1/corso-di-analisi-2/">Corso di Analisi 2</a></li>
+<li class="page_item page-item-247"><a href="http://pagine.dm.unipi.it/csblog1/informazioni-sul-corso-di-analisi-uno/">Informazioni sul corso di Analisi Uno</a></li>
+<li class="page_item page-item-2869"><a href="http://pagine.dm.unipi.it/csblog1/lezioni-di-analisi-2018-2019/">Lezioni di Analisi  2018-2019</a></li>
+<li class="page_item page-item-1695"><a href="http://pagine.dm.unipi.it/csblog1/lezioni-di-analisi-1-2012-2013/">Lezioni di Analisi 1 2012-2013</a></li>
+<li class="page_item page-item-2674"><a href="http://pagine.dm.unipi.it/csblog1/lezioni-di-analisi-2-a-a-2017-2018/">Lezioni di Analisi 2  A.A.  2017-2018</a></li>
+<li class="page_item page-item-2544"><a href="http://pagine.dm.unipi.it/csblog1/lezioni-di-analisi-2-2015-2016/">Lezioni di Analisi 2 2015-2016</a></li>
+<li class="page_item page-item-1978"><a href="http://pagine.dm.unipi.it/csblog1/lezioni-di-analisi-ii-2013-14/">Lezioni di Analisi Due 2013-14</a></li>
+<li class="page_item page-item-1246"><a href="http://pagine.dm.unipi.it/csblog1/lezioni-di-analisi-uno-2011-12/">Lezioni di Analisi Uno 2011-12</a></li>
+<li class="page_item page-item-1432"><a href="http://pagine.dm.unipi.it/csblog1/lezioni-per-il-percorso-di-eccellenza-2012/">Lezioni per il percorso di eccellenza 2012</a></li>
+<li class="page_item page-item-2475"><a href="http://pagine.dm.unipi.it/csblog1/materiale-didattico-per-analisi-2/">Materiale Didattico Per Analisi 2</a></li>
+<li class="page_item page-item-2"><a href="http://pagine.dm.unipi.it/csblog1/pagina-di-esempio/">Pagina di esempio.</a></li>
+<li class="page_item page-item-979"><a href="http://pagine.dm.unipi.it/csblog1/lezioni-di-complementi-di-matematica-2011/">Lezioni di Complementi di Matematica 2011</a></li>
+<li class="page_item page-item-999"><a href="http://pagine.dm.unipi.it/csblog1/lezioni-per-il-percorso-di-eccellenza-2011/">Lezioni per il Percorso di Eccellenza 2011</a></li>
+<li class="page_item page-item-2059"><a href="http://pagine.dm.unipi.it/csblog1/compiti-di-analisi-2/">Compiti di Analisi 2</a></li>
+<li class="page_item page-item-760"><a href="http://pagine.dm.unipi.it/csblog1/compiti-di-analisi-uno-ing-civile-ed-edile/">Compiti di Analisi Uno (ing. civile ed edile)</a></li>
+<li class="page_item page-item-115"><a href="http://pagine.dm.unipi.it/csblog1/compiti-di-analisi-uno-ing-aerospaziale/">Compiti di Analisi Uno (Ing. Aerospaziale)</a></li>
+<li class="page_item page-item-100"><a href="http://pagine.dm.unipi.it/csblog1/compiti-di-di-complementi-di-matematica/">Compiti  di Complementi di Matematica</a></li>
+<li class="page_item page-item-147"><a href="http://pagine.dm.unipi.it/csblog1/compiti-di-matematica-ing-gestionale/">Compiti di Matematica (Ing. Gestionale)</a></li>
+<li class="page_item page-item-237"><a href="http://pagine.dm.unipi.it/csblog1/vecchie-lezioni-e-altro-materiale/">VECCHIE LEZIONI E ALTRO MATERIALE</a></li>
+			</ul>
+
+			</div>
+</td>
+<!-- / Right Sidebar -->
+
+</tr>
+<!-- / Main Body -->
+
+<tr>
+
+<!-- Footer -->
+<td id="footer" colspan="2">
+    Copyright &copy; 2023 <a href="http://pagine.dm.unipi.it/csblog1/">Pagina per la didattica del prof. Claudio Saccon</a> - All Rights Reserved<br />Powered by <a href="http://wordpress.org/">WordPress</a> &amp; <a href="http://forum.bytesforall.com/">Atahualpa</a>    
+    
+    <script type="text/javascript">!function(t,e){"use strict";function n(){if(!a){a=!0;for(var t=0;t<d.length;t++)d[t].fn.call(window,d[t].ctx);d=[]}}function o(){"complete"===document.readyState&&n()}t=t||"docReady",e=e||window;var d=[],a=!1,c=!1;e[t]=function(t,e){return a?void setTimeout(function(){t(e)},1):(d.push({fn:t,ctx:e}),void("complete"===document.readyState||!document.attachEvent&&"interactive"===document.readyState?setTimeout(n,1):c||(document.addEventListener?(document.addEventListener("DOMContentLoaded",n,!1),window.addEventListener("load",n,!1)):(document.attachEvent("onreadystatechange",o),window.attachEvent("onload",n)),c=!0)))}}("wpBruiserDocReady",window);
+			(function(){var wpbrLoader = (function(){var g=document,b=g.createElement('script'),c=g.scripts[0];b.async=1;b.src='http://pagine.dm.unipi.it/csblog1/?gdbc-client=3.1.43-'+(new Date()).getTime();c.parentNode.insertBefore(b,c);});wpBruiserDocReady(wpbrLoader);window.onunload=function(){};window.addEventListener('pageshow',function(event){if(event.persisted){(typeof window.WPBruiserClient==='undefined')?wpbrLoader():window.WPBruiserClient.requestTokens();}},false);})();
+</script></td>
+
+
+</tr>
+
+</table><!-- / layout -->
+</div><!-- / container -->
+</div><!-- / wrapper -->
+
+</body>
+</html>

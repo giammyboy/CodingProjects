@@ -1,0 +1,104 @@
+\documentclass[12pt,a4paper]{article}
+\usepackage[utf8]{inputenc}
+\usepackage[T1]{fontenc}
+\usepackage{amsmath}
+\usepackage{amssymb}
+\usepackage[left=2.50cm, right=2.50cm, top=2.00cm, bottom=3.00cm]{geometry}
+
+\newcommand*{\fun}{$f: A \to B $}
+\newcommand*{\ep}{\epsilon}
+\newcommand{\fr}{$f: D \to \mathbb{R} $}
+\newcommand{\li}{\forall \ep > 0 \: \exists \delta > 0 : \forall x \in D, \: x \neq x_0, \: \left\lvert x - x_0\right\rvert < \delta \Rightarrow \left\lvert f(x) - L\right\rvert < \ep}
+
+
+\begin{document}
+\section*{Funzioni}
+\textbf{Definizioni}
+
+\begin{list}{$\rightarrow$}{}
+    \item funzione: un oggetto \fun{} che associa ad ogni elemento di A un elemento di B. 
+    \item f. iniettiva: una funzione \fun{} si dice iniettiva se 
+    \[\forall x_1, x_2 \in A : x_1 \neq x_2 \Rightarrow f(x_1) \neq f(x_2)\]
+    \item f. surgettiva: una funzione \fun{} si dice surgettiva se \[\forall b \in B\; \exists a \in A : f(a) = b \]
+    \item f. invertibile: una funzione \fun{} si dice invertibile se \[ \exists \: g: B \to A  : \forall b \in B \; f(g(b)) = b, \: \forall a \in A \; g(f(b)) = a \] Si dice quindi che $g$ è l'inversa di $f$
+\end{list}
+
+\section*{Insiemi}
+\textbf{Definizioni}
+
+\begin{list}{$\rightarrow$}{}
+    \item minimo: sia $A$ un insieme, \[\min A = \{m \in A : \forall a \in A,\: m < a\}\] 
+    \item massimo: sia $A$ un insieme, \[\max A = \{M \in A : \forall a \in A,\: M > a\}\]
+    \item insieme inferiormente limitato: un insieme $A$ si dice inf. lim. se \[\forall a \in A, \: \exists m : m \le a\] $m$ è un minorante.
+    \item insieme superiormente limitato: un insieme $A$ si dice sup. lim. se \[\forall a \in A, \: \exists M : M \ge a\] $M$ è un maggiorante.
+    \item intervallo: un intervallo $I \in \mathbb{R}$ è un intervallo \[I \subseteq \mathbb{R} : \forall a, b \in I, \: a \le b \Rightarrow \left[a, b\right] \subseteq I\]
+    \item intorno: sia $x_0 \in \mathbb{R}$ si dice intorno di $x_0$ di raggio $\ep$ l'intervallo \[I(x_0, \ep) = (x_0 - \ep, x_0 + \ep)\] Si dice quindi che $U \subseteq \mathbb{R}$ è un intorno di $x_0$ se \[\exists \ep > 0 : I(x_0, \ep) \subseteq U\] 
+    \item insieme aperto: un ins. $A \subseteq \mathbb{R}$ si dice aperto se \[\forall x_0 \in A \; \exists \ep > 0 : I(x_0, \ep) \subseteq A\] 
+    \item parte interna: si dice che $x_0$ appartiene alla parte interna di un ins. $A$ se \[\exists \ep > 0 : I(x_0, \ep) \subseteq A\] Ovvero se $A$ è un intorno di $x_0$.
+    \item punto di accumulazione: sia $A$ un ins.. Si dice che $x_0$ è di accumulazione se \[\forall \ep > 0 \; \exists I(x_0, \ep) : (I(x_0, \ep)\smallsetminus \left\{x_0\right\}) \cap A \neq 0\]
+    \item insieme chiuso: sia $A \subseteq \mathbb{R}$. Si dice chiusura di $cl(A) = A \cap DA$ dove con $DA$ si indica l'insieme dei punti di accumulazione di $A$. Se $A = \overline{A}$ allora $A$ è un insieme chiuso.
+    \item frontiera: sia $A$ un ins.. Si definisce frontiera di A $(\partial A) = \overline{A} \smallsetminus A^{\circ} $ dove $\overline{A}$ è la chiusura di $A$ e $A^{\circ}$ è la parte interna di $A$.
+    \item punto isolato: $x_0 \in A$ si dice punto isolato se $x_0$ non è di accumulazione per $A$.
+\end{list}
+
+\section*{Successioni}
+\textbf{Definizioni\\}
+Per questa sezione tutte le vole che compare $n$ si da per scontato che $n \in \mathbb{N}$.
+
+\begin{list}{$\rightarrow$}{}
+    \item successione: dato un insieme $X: X \neq 0$ si definisce una successione di elementi di $X$ una funzione \[a: \left\{n > n_0: n, n_0 \in \mathbb{N}\right\} \rightarrow X\]
+    \item limite di una successione: $L \in \overline{\mathbb{R}}$ è un valore limite per la successione $a_n$ per $n \to \infty$ se $\forall U$ di $L$, definitivamente $a_n \in U$. 
+    \item successione cofinale: data $a_n$ definita per $n > n_0$ si dice che $a_{s_j}$ è cofinale con $a_n$ se esiste \[s: \mathbb{N} \rightarrow \left\{n > n_0\right\} : \lim_{j \to +\infty} s_j = +\infty\]
+    \item successione estratta: una successione cofinale $a_{s_j}$ si dice estratta da $a_n$ se $s_j$ è strettamente crescente
+    \item successione monotona: una successione si dice monotona crescente se $\forall n > n_0, \: a_{n + 1} > a_n$
+    \item successione monotona: una successione si dice monotona decresente se $\forall n > n_0, \: a_{n + 1} < a_n$
+    \item criterio di irregolarità di una successione: se esistono due successioni cofinali con ($a_{s_j}, a_{s_k}$) tali che \[a_{s_j} \to L_1 \wedge  a_{s_k} \to L_2, \: L_1 \neq L_2 \Rightarrow \nexists \lim_{n\to +\infty}a_n\] 
+    \item criterio di convergenza di Cauchy: una successione $a_n$ è detta di Cauchy se \[\forall \ep > 0 \: \exists k \ge n_0 : \forall n, m > k, \;\left\lvert a_n - a_m\right\rvert < \ep  \] Allora la serie converge $\Leftrightarrow $ la serie è di Cauchy.
+    \item ogni successione monotona è regolare: se $a_n$ non è superiormente limitata allora si ha che \[\forall c \in \mathbb{R} \; \exists k > n_0 : \forall n > k, \: a_n > c\] ma dato che la successione è monotona si ha che $a_{n + 1} > a_n > c$ quindi la successione diverge. Se $a_n$ è superiormente limitata si ha che definitivamente \[L - \ep < a_n < L < L +\ep\] ma $a_n < a_{n + 1} < L$ quindi converge.
+    \item criterio della radice: data la successione $a_n$ a termini positivi, si ha che se \[ \sqrt[n]{a_n} \to L \Rightarrow 
+    \begin{cases}
+    L > 1 \Rightarrow a_n \to \infty\\
+    L = 1 \Rightarrow indeterminato\\
+    L < 1 \Rightarrow a_n \to 0\\    
+    \end{cases}\]
+    \item criterio del rapporto: data la successione a termini positivi, si ha che se \[\dfrac{a_{n+1}}{a_n} \to L 
+    \begin{cases}
+    L > 1 \Rightarrow a_n \to \infty\\
+    L = 1 \Rightarrow indeterminato\\
+    L < 1 \Rightarrow a_n \to 0\\            
+    \end{cases}\]
+    \item criterio rapporto $\Rightarrow$ radice: data una successione a termini positivi si ha che se \[\dfrac{a_{n+1}}{a_n} \to L \Rightarrow \sqrt[n]{a_n} \to L\]
+    \item successioni cofinali hanno lo stesso limite della successione dalla quale sono estratte se la successione è regolare: per ogni intorno $U$ di $L$ si ha che \[\exists k > n_0 : \forall n > k, \: a_n \in U\] Per cofinalità \[\exists h > 0 : \forall j > h, \: s_j > k \Rightarrow a_{s_j} \in U\]
+    \item numero di Nepero: si prenda la successione \[a_n = \biggl(1 + \dfrac{1}{n}\biggr)^n \Rightarrow \lim_{n \to +\infty} \biggl(1 + \dfrac{1}{n}\biggr)^n = e \]
+\end{list}
+
+\section*{Funzioni}
+\textbf{Definizioni\\}
+Per questa sezione si indica con $U$ un intorno base del valore di limite mentre con $W$ un intorno base del punto di accumulazione. 
+\begin{list}{$\rightarrow$}{}
+    \item grafico: sia \fr{} il grafico di tale funzione è definito come \[G(f) = \left\{ (x, f(x)) \in \mathbb{R} \times \mathbb{R}, \: x \in D\right\} \]
+    \item fun. pari: una funzione \fr{} si dice pari se $f(x) = f(-x)$
+    \item fun. dispari: una funzione \fr{} si dice dispari se $f(x) = -f(-x)$
+    \item Fun. periodica: una funzione \fr{} si dice periodica di periodo $T$ se $f(x) = f(x + T)$
+    \item limite di una funzione: $L \in \mathbb{R}$ è un valore limite della funzione \fr{} se \[\forall \ep > 0 \: \exists \delta > 0 : \forall x \in D, \: x \neq x_0, \: f((x_0 - \delta, \: x_0 + \delta)) \subseteq (L - \ep, L + \ep)\] oppure \[\forall \ep > 0 \: \exists \delta > 0 : \forall x \in D, \: x \neq x_0, \: \left\lvert x - x_0\right\rvert < \delta \Rightarrow \left\lvert f(x) - L\right\rvert < \ep  \] oppure \[\forall \ep > 0 \: \exists \delta > 0 : \: f(I(x_0, \delta) \smallsetminus \left\{x_0\right\} ) \subseteq I(L, \ep)\]
+    \item fun. monotona: una funzione \fr{} si dice monotona crescente se \[\forall x_1, x_2 \in D, \: x_1 < x_2 : \: f(x_1) < f(x_2)\]
+    \item fun. monotona: una funzione \fr{} si dice monotona decrescente se \[\forall x_1, x_2 \in D, \: x_1 < x_2 : \: f(x_1) > f(x_2)\]
+    \item fun.continua: una funzione \fr{} si dice continua in $x_0$ se \[\forall \ep > 0 \: \exists \delta > 0 : \forall x \in D, \: \left\lvert x - x_0\right\rvert < \delta, \: \left\lvert f(x) - f(x_0)\right\rvert < \ep \] Se $f$ è continua in ogni punto di $D$ allora $f$ è continua. In alternativa dato $ L \in \mathbb{R}, \; f$ è continua se \[\forall \ep > 0 \: \exists \delta > 0 : \: f(I(x_0, \delta) \cap D) \subseteq I(L, \ep)\] 
+    \item unicità del limite: se \[\lim_{x \to x_0} f(x) = L \in \overline{\mathbb{R}} \Rightarrow \exists! L\] Si suppone che esistono $L_1$ e $L_2$ tali che $U_1 \cap U_2 = \emptyset$ quindi \[f((W_1 \cap D) \smallsetminus \left\{x_0\right\}) \subseteq U_1 \text{ e } f((W_2 \cap D) \smallsetminus \left\{x_0\right\}) \subseteq U_2\] Possiamo quindi scrivere che \[f(((W_1 \cap W_2)\cap D) \smallsetminus \left\{x_0\right\}) \subseteq U_1 \cap U_2 = \emptyset\] Il che è contraddittorio dato che $W_1 \cap W_2 \neq \emptyset$ (sono entrambi intorni di $x_0$) quindi \[f(((W_1 \cap W_2)\cap D) \smallsetminus \left\{x_0\right\}) \subseteq U_1 \cap U_2 \neq \emptyset\]
+    \item permanenza del segno: sia \[\lim_{x \to x_0} f(x) = L \in \overline{\mathbb{R}}, \: L \neq 0 \Rightarrow \exists W : \: f((W \cap D) \smallsetminus \left\{x_0\right\}) \text{ è concorde con } L\] infatti dato che $L \neq 0 $ allora $\exists \ep < \left\lvert L\right\rvert $ in cui $f$ ha lo stesso segno di $L$
+    \item confronto a due termini: siano $f, g: D \to \mathbb{R}, \: x_0$ di accumulazione per $D$ e che $\lim_{x \to x_0} f(x) = +\infty$ e che esista un intorno $W$ di $x_0$ tale che \[ \forall x \in W \cap (D \smallsetminus \left\{x_0\right\} ), \: g(x) \ge f(x) \Rightarrow \lim_{x \to x_0} g(x) = +\infty\] 
+    \item confronto a tre termini: siano $f, g, h: D \to \mathbb{R} $, $x_0$ di accumulazione per $D$, si supponga che \[\lim_{x \to x_0} f(x) = \lim_{x \to x_0} g(x) = L \in \overline{\mathbb{R} }\] e che esista un intorno $W$ di $x_0$ tale che \[\forall x \in W \cap (D \smallsetminus \left\{x_0\right\} ), \: f(x) \le h(x) \le g(x) \Rightarrow \lim_{x \to x_0} h(x) = L\] In quanto $\li{}$ e $\left\lvert g(x) - L\right\rvert < \ep$ quindi \[L - \ep < f(x) \le h(x) \le g(x) < L < L + \ep\]
+    \item criterio funzioni-successioni: data \fr{}, $x_0$ di accumulazione allora \[\lim_{x \to x_0} f(x) = L \in \overline{\mathbb{R}} \Leftrightarrow \forall a_n: \mathbb{N} \to D \smallsetminus \left\{x_0\right\}  : \: \lim_{n \to +\infty} a_n = x_0, \: \lim_{n \to +\infty} f(a_n) = L\]
+    \item compattezza: un sottoinsieme $K \subset \mathbb{R}$ si dice compatto per successioni se \[\forall a: \mathbb{N} \to K \exists a_{n_j}: \: \lim_{j \to +\infty} a_{n_j} = k \in K\]
+    \item teorema di Bolzano-Weierstrass: data $a_n$ una successione limitata in $\mathbb{R}$ allora $a_n$ ammette una sottosuccessione convergente. Questo significa che esistono una sottosuccessione crescente ($\sigma_n$) e un punto $L \in \mathbb{R}$ tali che $\lim_{n \to +\infty} a_{\sigma_n} = L$.
+    \item compattezza: data $ K \subset \mathbb{R} $ si dice compatto per successioni se \[\forall a: \mathbb{N} \to K \; \exists a_{n_j} : \: \lim_{j \to + \infty} a _{n_j} = k \in K\] 
+    \item ogni intervallo chiuso e limitato è compatto: si può usare il teorema di Bolzano-Weierstrass per dimostrare che tale intervallo è compatto. Basta infatti costruire una successione con il metodo di bisezione che ad ogni passaggio crei un intervallo di lunghezza dimezzata che contiene $k \in K$ e quindi avere due successioni ($a_n, b_n$) le quali convergono a $k$, $a_n$ crescendo $b_n$ decrescendo. 
+\end{list}
+
+\section*{Teoremi}
+\subsection*{Teorema di Weierstrass}
+\subsubsection*{Enunciato}
+Sia \fr{} continua. Se $D$ è compatto, allora $f$ ammette masssimo e minimo assoluti. In particolare se $f : \left[a, b\right] \to \mathbb{R} $ è continua, $f$ ammette massimo e minimo assoluti. 
+\subsubsection*{Dimostrazione}
+Se $D$ è compatto e $f$ è continua allora anche $f(d)$ è compatto. Vediamo che ammette massimo (per il minimo si fa un ragionamento equivalente). Poiché è compatto, $f(D)$ è limitato superiormente, per cui $\exists m = \sup f(d),\: m \in \mathbb{R}$. Se $m \in f(D)$ ho concluso, perché se $\sup A \in A$ allora $\sup A = \max A$. Per concludere, vediamo che $m \in f(D)$, usando che $f(D)$, essendo compatto, è chiuso. Per definizione di $\sup$, $\forall \ep > 0 \; \exists x \in f(D) : \: m - \ep < x \le m$ per cui \[\left( m - \ep, \: m + \ep \right) \cap f(D) \neq \emptyset \left(\text{ contiene } x\right) \] Se $m \in f(D)$ abbiamo concluso, altrimenti \[\left(\left(m - \ep, \: m - \ep \right) \cap  f(D)\right) \smallsetminus \left\{x_0\right\} \neq \emptyset \] e per arbritarietà di $\ep$, segue che $m$ è un punto di accumulazione di $f(D)$. Ma $f(D)$ è chiuso, per cui $m \in f(D)$.
+\end{document}
