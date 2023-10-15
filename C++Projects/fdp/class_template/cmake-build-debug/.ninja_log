@@ -1,0 +1,6 @@
+# ninja log v5
+4	50	1682513439341047882	build.ninja	3858b84fff6b6b98
+6	223	1681331548135766616	CMakeFiles/class_template.dir/complexpolar.cpp.o	d813300f7b6b00e4
+6	223	1681331548135492038	CMakeFiles/class_template.dir/complexcart.cpp.o	8853cc3a7b64c8b2
+5	174	1681331548085879259	CMakeFiles/class_template.dir/complex.cpp.o	66bd52fe1d998945
+3	272	1681331657441730009	CMakeFiles/class_template.dir/main.cpp.o	6c4877f15c9607de

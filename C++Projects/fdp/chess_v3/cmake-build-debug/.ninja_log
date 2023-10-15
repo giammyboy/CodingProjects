@@ -1,0 +1,6 @@
+# ninja log v5
+0	679	1690402567050130783	CMakeFiles/chess_v3.dir/Position.cpp.o	2a276155b6ed4443
+1	681	1690402567050129283	CMakeFiles/chess_v3.dir/Move.cpp.o	d8e781808f55f528
+1	681	1690402567050131367	CMakeFiles/chess_v3.dir/Piece.cpp.o	b75b0da4cfa83f4e
+6	511	1690445243966712138	CMakeFiles/chess_v3.dir/main.cpp.o	fa3ba5b5206ad8aa
+511	562	1690445244019947752	chess_v3	33124c0c5a586401

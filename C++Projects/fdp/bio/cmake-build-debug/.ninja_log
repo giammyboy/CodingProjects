@@ -1,0 +1,9 @@
+# ninja log v5
+1	233	1696846630575501615	CMakeFiles/bio.dir/Museo.cpp.o	55a7a7088e9f717a
+0	627	1696846630967121795	CMakeFiles/bio.dir/main.cpp.o	6a4d088627e3ac39
+3	207	1696846702574509848	CMakeFiles/bio.dir/museo.cpp.o	b5830578aad38b6c
+2	543	1696846702909264395	CMakeFiles/bio.dir/main.cpp.o	6a4d088627e3ac39
+2	210	1696846786412039902	CMakeFiles/bio.dir/museo.cpp.o	b5830578aad38b6c
+1	539	1696846786739958190	CMakeFiles/bio.dir/main.cpp.o	6a4d088627e3ac39
+3	42	1696846791047780657	CMakeFiles/bio.dir/museo.cpp.o	b5830578aad38b6c
+2	466	1696846791471304707	CMakeFiles/bio.dir/main.cpp.o	6a4d088627e3ac39

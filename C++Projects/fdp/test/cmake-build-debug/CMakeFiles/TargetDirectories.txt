@@ -1,0 +1,3 @@
+/Users/giammy/CLionProjects/fdp/test/cmake-build-debug/CMakeFiles/test.dir
+/Users/giammy/CLionProjects/fdp/test/cmake-build-debug/CMakeFiles/edit_cache.dir
+/Users/giammy/CLionProjects/fdp/test/cmake-build-debug/CMakeFiles/rebuild_cache.dir

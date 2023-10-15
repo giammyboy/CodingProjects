@@ -1,0 +1,3 @@
+/Users/giammy/CLionProjects/fdp/untitled/cmake-build-debug/CMakeFiles/untitled.dir
+/Users/giammy/CLionProjects/fdp/untitled/cmake-build-debug/CMakeFiles/edit_cache.dir
+/Users/giammy/CLionProjects/fdp/untitled/cmake-build-debug/CMakeFiles/rebuild_cache.dir

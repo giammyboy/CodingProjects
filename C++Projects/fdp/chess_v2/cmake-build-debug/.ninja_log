@@ -1,0 +1,12 @@
+# ninja log v5
+9	1010	1689859043419232344	CMakeFiles/chess_v2.dir/Board.cpp.o	bbd459ec0151ec92
+9	1012	1689859043423634778	CMakeFiles/chess_v2.dir/Piece.cpp.o	8226e402d1d2326e
+1	237	1688025610461054005	CMakeFiles/chess_v2.dir/square.cpp.o	2bdd10b6c65e9a3f
+11	1865	1689870692995839588	CMakeFiles/chess_v2.dir/rules.cpp.o	b189fb9ad9f7ad2e
+8	571	1689871201818698774	CMakeFiles/chess_v2.dir/main.cpp.o	6b9fd100bb520f35
+1	238	1688025610461053505	CMakeFiles/chess_v2.dir/board.cpp.o	7c1ead6b14b948fc
+0	70	1695490761380588684	build.ninja	468e4771f27472bd
+1	244	1688025610468111437	CMakeFiles/chess_v2.dir/set.cpp.o	5e9487b4eb248239
+1	244	1688025610468111603	CMakeFiles/chess_v2.dir/piece.cpp.o	a9495b8b406beb35
+571	622	1689871201871599291	chess_v2	fdd4ace685ad9ba8
+8	522	1688734622095227082	CMakeFiles/chess_v2.dir/help.cpp.o	14576de8bca7ab8f
