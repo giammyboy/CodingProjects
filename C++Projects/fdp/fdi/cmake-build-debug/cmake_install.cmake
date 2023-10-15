@@ -1,4 +1,4 @@
-# Install script for directory: /Users/giammy/CLionProjects/fdp/fdi
+# Install script for directory: /Users/giammy/Documents/CodingProjects/C++Projects/fdp/fdi
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -45,5 +45,5 @@ endif()
 
 string(REPLACE ";" "\n" CMAKE_INSTALL_MANIFEST_CONTENT
        "${CMAKE_INSTALL_MANIFEST_FILES}")
-file(WRITE "/Users/giammy/CLionProjects/fdp/fdi/cmake-build-debug/${CMAKE_INSTALL_MANIFEST}"
+file(WRITE "/Users/giammy/Documents/CodingProjects/C++Projects/fdp/fdi/cmake-build-debug/${CMAKE_INSTALL_MANIFEST}"
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")
