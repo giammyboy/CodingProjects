@@ -23,7 +23,7 @@ def graph(s: pendolo.Sistema):
   axs[1, 1].plot(s.x, s.v)
   axs[1, 1].set_xlabel("Position [m]")
   axs[1, 1].set_ylabel("Velocity [m s^-1]")
-  plt.savefig('fig1.png', dpi=600)
+  # plt.savefig('fig1.png', dpi=600)
   plt.show()
 
 def plot_energy(s: pendolo.Sistema):
@@ -54,7 +54,7 @@ Sys.simula(10, 0.01, damping=0, mi=1.9)
 tf = time.time()
 print("delta time = ", tf - ti)
 #Sys.animazione()
-plot_energy(Sys)
+# plot_energy(Sys)
 #Sys.diff()
 graph(Sys)
 
