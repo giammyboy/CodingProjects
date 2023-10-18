@@ -1,4 +1,6 @@
-\documentclass[a4paper, 12pt]{article}
+
+
+\documentclass[12pt]{article}
 \usepackage[hmargin=2cm,vmargin=2.5cm]{geometry}
 \usepackage[italian]{babel}
 
@@ -8,20 +10,18 @@
 \usepackage{graphicx}
 \usepackage{hyperref}
 \usepackage{amsmath}
-\usepackage[backend=biber,style=apa, url=true, sortcites]{biblatex}
+% \usepackage[backend=biber,style=apa, url=true, sortcites]{biblatex}
 \usepackage[table]{xcolor}
 \usepackage{minted}
-\usepackage{graphicx}
 
-
-\addbibresource{references.bib}
-\hypersetup{
-    colorlinks,
-    citecolor=black,
-    filecolor=black,
-    linkcolor=black,
-    urlcolor=black
-}
+% \addbibresource{references.bib}
+% \hypersetup{
+%     colorlinks,
+%     citecolor=black,
+%     filecolor=black,
+%     linkcolor=black,
+%     urlcolor=black
+% }
 
 \setlength{\arrayrulewidth}{0.4mm}
 
@@ -33,7 +33,7 @@
 \begin{titlepage}
   \begin{center}
     % logo
-    \includegraphics[width=0.5\textwidth]{main/figures/logo.png}~\\[1cm]
+    \includegraphics[width=0.5\textwidth]{figures/logo.png}~\\[1cm]
 
     \vspace{3cm}
 
@@ -66,7 +66,7 @@ Per questo progetto si intende studiare un sistema composto da $n$ pendoli, cias
 
 \begin{figure}[htp!]
   \centering
-  \includegraphics[width=.7\textwidth]{main/figures/fig_pendoli.png}
+  \includegraphics[width=.7\textwidth]{figures/fig_pendoli.png}
   \caption{Condizione iniziale per 4 pendoli}
   \label{fig:pendoli_start}
 \end{figure}
@@ -129,6 +129,7 @@ Si ottiene quindi il sistema
 % \end{aligned}
 \quad \Rightarrow \quad
 % \begin{align*}
+\displaystyle
 \begin{cases}
     \ddot{\theta}_1 = \dfrac{gsin(\theta_1)-\ddot{x}cos(\theta_1)}{l} \\
     \vspace{.3cm}
@@ -137,9 +138,9 @@ Si ottiene quindi il sistema
     \ddot{\theta}_n = \dfrac{gsin(\theta_n)-\ddot{x}cos(\theta_n)}{l} \\
     \vspace{.3cm}
     % \ddot{x} =& \dfrac{ml\sum_{i=1}^{n} \dot{\theta_i^2 } \sin(\theta_i) -mg\sum_{i=1}^{n} \sin(2 \theta_i)}{M+m\sum_{i=1}^{n}sin^2(\theta_i)} \\
-    \ddot{x} = \sum_{i=1}^{n}  \frac{ml \dot{\theta_i^2 } \sin(\theta_i) -mg \sin (2 \theta_i)}{M+m \sin^2(\theta_i)} \\
-    \sum
-\end{cases}
+    \displaystyle
+    \ddot{x} = \sum_{i=1}^{n}  \frac{ml \dot{\theta_i^2 } \sin(\theta_i)-mg \sin (2 \theta_i)}{M+m \sin^2(\theta_i)} \\
+  \end{cases}
 \]
 % \end{align*}
 
