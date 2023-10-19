@@ -7,8 +7,8 @@ fig = plt.figure()
 ax = fig.add_subplot(111, projection='3d')
 
 # Define the sphere
-u = np.linspace(0, 2 * np.pi, 100)
-v = np.linspace(0, np.pi, 100)
+u = np.linspace(0, 2 * np.pi, 1000)
+v = np.linspace(0, np.pi, 1000)
 r = 3
 x = r * np.outer(np.cos(u), np.sin(v))
 y = r * np.outer(np.sin(u), np.sin(v))
