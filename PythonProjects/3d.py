@@ -1,28 +1,27 @@
 import matplotlib.pyplot as plt
+from mpl_toolkits.mplot3d import Axes3D
 import numpy as np
 
+# Create a figure and a 3D axis
 fig = plt.figure()
-ax = fig.add_subplot(projection='3d')
+ax = fig.add_subplot(111, projection='3d')
 
-# Make data
-u = np.linspace(10, -10, 10)
-v = np.linspace(10, -10, 10)
-w = np.linspace(10, -10, 10)
-k = 1.0
-x = k * v * np.sqrt(u**2 + v**2 + w**2)
-y = -k * u * np.sqrt(u**2 + v**2 + w**2)
-z = k * w * np.sqrt(u**2 + v**2 + w**2)
+# Define the sphere
+u = np.linspace(0, 2 * np.pi, 100)
+v = np.linspace(0, np.pi, 100)
+r = 3
+x = r * np.outer(np.cos(u), np.sin(v))
+y = r * np.outer(np.sin(u), np.sin(v))
+z = r * np.outer(np.ones(np.size(u)), np.cos(v))
 
-print(x, y, z)
+# Plot the sphere
+ax.plot_surface(x, y, z, color='b')
 
-X = np.outer(x, u)
-Y = np.outer(y, v)
-Z = np.outer(z, w)
+# Set axis labels
+ax.set_xlabel('X')
+ax.set_ylabel('Y')
+ax.set_zlabel('Z')
 
-# Plot the surface
-ax.quiver(Y, Y, Z, X, Y, Z)
-
-# Set an equal aspect ratio
-ax.set_aspect('equal')
-
+ax.axis("equal")
+# Show the plot
 plt.show()

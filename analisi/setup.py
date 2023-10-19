@@ -7,3 +7,5 @@ setup(
     ext_modules=cythonize("pendolo.pyx"),
     include_dirs=[numpy.get_include()]
 )
+
+# python3.11 setup.py build_ext --inplace

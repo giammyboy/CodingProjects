@@ -101,7 +101,7 @@ cdef class Sistema:
         self.K = np.zeros(1, dtype=DTYPE)
         self.E = np.zeros(1, dtype=DTYPE)
 
-    def simula(self, double time, double timestep, int damping=1, double mi=0.3, double teta0=PI / 12):
+    def simula(self, double time, double timestep, int damping=1, double mi=0.3, double teta0=PI / 12, int method = 1):
         # calcola il numero di intervalli di tempo
         self.n = int(time / timestep)
         # inizializza in tempo in modo che abbia n + 1 intervalli tra il tempo iniziale e finale
@@ -185,6 +185,16 @@ cdef class Sistema:
             # calcola la nuova posizione e la restituisce per l'iterazione successiva
             return yn + (1/6)*k1 + (1/3)*k2 + (1/3)*k3 + (1/6)*k4
 
+        def integrate_t2(fun: callable, cnp.ndarray yn , float h):
+            # calcola uno step di integrazione date le condizioni iniziali, lo step h e la funzione che regola il moto
+
+            # utilizza il metodo di Runge-Kutta di 4o ordine
+            # cdef cnp.ndarray k1 = h*fun((1/4)*yn)
+            # cdef cnp.ndarray k2 = h*fun((1/2)*yn + (1/4)*k1)
+
+            # calcola la nuova posizione e la restituisce per l'iterazione successiva
+            return yn + h*fun(yn + (1/2)*h*fun(yn))
+
         @cython.boundscheck(False) 
         @cython.wraparound(False)
         def integrate_all(fun: callable, y0: cnp.ndarray, double h) -> cnp.ndarray:
@@ -206,9 +216,36 @@ cdef class Sistema:
 
             return res
 
+        @cython.boundscheck(False) 
+        @cython.wraparound(False)
+        def integrate_all2(fun: callable, y0: cnp.ndarray, double h) -> cnp.ndarray:
+            # calcola per ogni istante di tempo l'integrazine in base alle condizioni di partenza
+
+            # iniziallizza il vettore dei risultati a 0
+            cdef cnp.ndarray res = np.zeros(shape=(self.n + 1, 2 * self.N + 2), dtype=DTYPE)
+            # il primo istante è quello delle condizioni iniziali
+            res[0] = y0
+
+            # assegna a il tempo da valutare il tempo iniziale
+            t_eval = self.t
+
+            # intera lungo il tempo
+            for t, index in zip(t_eval, range(1, len(t_eval))):
+                # per ogni istante di tempo aggiunge al risultato l'initegrazione corrispondente che riporta quindi posizione e velocità
+                res[index] = integrate_t2(fun, res[index - 1], h)
+                # print(res[index], end="\n")
+
+            return res
+
         # calcola la soluzione chiamando la funzione per integrare sull'intervallo di tempo
-        cdef cnp.ndarray solution = integrate_all(dSdt, initial_cond, timestep)
+
+        cdef cnp.ndarray solution
         
+        if method == 1:
+            solution = integrate_all(dSdt, initial_cond, timestep)
+        elif method == 2:
+            solution = integrate_all2(dSdt, initial_cond, timestep)
+
         # mette le soluzioni nelle giuste variabili
         self.x = solution[:, 2 * self.N]
         self.v = solution[:, 2 * self.N + 1]
