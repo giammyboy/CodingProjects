@@ -156,12 +156,34 @@ Per risolvere numericamente le equazioni differenziali abbiamo scelto di usare i
 
 \subsection{Implementazione}
 
+\subsubsection{Premesse}
 
+Per semplicità abbiamo scelto di implementare il metodo numerico in Python: linguaggio che offre ottime prestazioni ma al contempo permette di facilitare l'analisi dati. Per rendere il processo di integrazione ancora più prestante abbiamo utilizzato anche la libreria \textit{Cython} che permette di una tipizzazione delle variabili come in C. Con queste accortezze siamo riusciti a dimezzare il tempo di calcolo per il nostro algoritmo. Abbiamo poi deciso di usare \textit{MatPlotLib} per graficare i nostri risultati in modo da avere un riscontro visivo di ciò che l'integratore è in grado di fare.
+
+\subsubsection{Algoritmo di Integrazione}
+
+L'algoritmo di integrazione, come già accennato, si basa sul metodi di Runge-Kutta si ordine 4. Abbiamo quindi bisogno di una funzione che data la condizione iniziale del sistema \(y_n\) ci restituisca la sua derivata rispetto al tempo. Questo l'abbiamo fatto usando le equazioni per le accelerazioni trovate con la Lagrangiana del sistema, che trascritte e poste in una funzione sono:
 
 \begingroup
 \obeylines
-\inputminted[fontsize=\scriptsize, linenos, breaklines=true, xleftmargin=0.75cm, frame=lines]{cython}{code/Python/file_1.pyx}
+\inputminted[fontsize=\scriptsize, linenos, breaklines=true, xleftmargin=0.75cm, frame=lines, tabsize=2]{cython}{code/Cython/dSdt.pyx}
 \endgroup
+
+Data la funzione che regola le accelerazioni e le velocità del sistema si passa alla parte di integrazione vera e propria con la prima funzione che viene chiamata con argomenti la funzione che regola il sistema, le condizioni iniziali del sistema e il \textit{timestep} che si vuole utilizzare.
+
+\begingroup
+\obeylines
+\inputminted[fontsize=\scriptsize, linenos, breaklines=true, xleftmargin=0.75cm, frame=lines, tabsize=2]{cython}{code/Cython/integrate_all.pyx}
+\endgroup
+
+La funzione \mintinline{cython}|integrate_all| fa una chiamata a \mintinline{cython}|integrate_t| per ogni timestep nel tempo totale e per ogni nuovo step chiama la funzione \mintinline{cython}|integrate_t| con lo stato del sistema nell'istante precedente. In questo modo iteriamo per tutto il tempo dato e troviamo la soluzione numerica al moto del sistema.
+
+\begingroup
+\obeylines
+\inputminted[fontsize=\scriptsize, linenos, breaklines=true, xleftmargin=0.75cm, frame=lines]{cython}{code/Cython/integrate_t.pyx}
+\endgroup
+
+
 
 \newpage
 

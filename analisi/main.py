@@ -1,5 +1,5 @@
 import pendolo
-import numpy
+import numpy as np
 from numpy import pi
 import matplotlib.pyplot as plt
 import matplotlib.animation as animation
@@ -26,12 +26,14 @@ def graph(s: pendolo.Sistema):
   # plt.savefig('fig1.png', dpi=600)
   plt.show()
 
-def plot_energy(s: pendolo.Sistema):
+def plot_energy(s: pendolo.Sistema, index = 1):
   fig, axs = plt.subplots(1)
   fig.set_figwidth(7)
   fig.set_figheight(7)
-
+  axs.set_xlim(0, np.max(s.t))
+  axs.set_ylim(0, np.max(s.E) + 1)
   axs.plot(s.t, s.E)
+  plt.savefig("energy.png", dpi=600)
   plt.show()
 
 
@@ -46,15 +48,20 @@ p5 = pendolo.Pendolo(thetaIniz=pi / 16)
 p6 = pendolo.Pendolo(thetaIniz=-pi / 7)
 
 # istanziamento supporto, i parametri sono: pendoli da mettere sopra, M, m, l
-Sys = pendolo.Sistema(pend=[p1], Mass=5, mass=2, lenght=.5)
+Sys = pendolo.Sistema(pend=[p1, ], Mass=5, mass=2, lenght=.5)
 # funzione per simulare l'evoluzione, i parametri sono: durata, timestep, presenza del termine di damping-driving,
 # coefficiente miu, angolo di equilibrio
 ti = time.time()
-Sys.simula(10, 0.01, damping=0, mi=1.9)
+Sys.simula(10, 0.001, damping=0, mi=1.9)
 tf = time.time()
 print("delta time = ", tf - ti)
 #Sys.animazione()
-# plot_energy(Sys)
+plot_energy(Sys, 1)
+# Sys.simula(10, 0.01, damping=0, mi=1.9)
+# plot_energy(Sys, 2)
+# Sys.simula(10, 0.001, damping=1, mi=1.9)
+# plot_energy(Sys, 3)
+# Sys.simula(10, 0.01, damping=1, mi=1.9)
 #Sys.diff()
-graph(Sys)
+#graph(Sys)
 

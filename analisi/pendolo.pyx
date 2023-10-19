@@ -159,8 +159,7 @@ cdef class Sistema:
             # aggiungo l'accelerazione al vettore dei risultati
             res[2 * self.N + 1] = acc
 
-            return res
-        
+            return res    
         # METODO DI PRINCE - TROPPO LENTO/ OTTIMIZZATO MALE 
         # def integrate_t(fun: callable, cnp.ndarray yn , float h):
         #     cdef cnp.ndarray k1 = h*fun(yn)

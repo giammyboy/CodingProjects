@@ -1,0 +1,10 @@
+\begin{Verbatim}[commandchars=\\\{\}]
+\PYG{k}{def} \PYG{n+nf}{integrate\PYGZus{}t}\PYG{p}{(}\PYG{n}{fun}\PYG{p}{:} \PYG{n+nb}{callable}\PYG{p}{,} \PYG{n}{cnp}\PYG{o}{.}\PYG{n}{ndarray} \PYG{n}{yn} \PYG{p}{,} \PYG{n+nb}{float} \PYG{n}{h}\PYG{p}{):}
+    \PYG{c}{\PYGZsh{} calcola uno step di integrazione date le condizioni iniziali, lo step h e la funzione che regola il moto}
+    \PYG{k}{cdef} \PYG{k+kt}{cnp}.\PYG{k+kt}{ndarray} \PYG{n+nf}{k1} \PYG{o}{=} \PYG{n}{h}\PYG{o}{*}\PYG{n}{fun}\PYG{p}{(}\PYG{n}{yn}\PYG{p}{)}
+    \PYG{k}{cdef} \PYG{k+kt}{cnp}.\PYG{k+kt}{ndarray} \PYG{n+nf}{k2} \PYG{o}{=} \PYG{n}{h}\PYG{o}{*}\PYG{n}{fun}\PYG{p}{(}\PYG{n}{yn} \PYG{o}{+} \PYG{p}{(}\PYG{l+m+mf}{1}\PYG{o}{/}\PYG{l+m+mf}{2}\PYG{p}{)}\PYG{o}{*}\PYG{n}{k1}\PYG{p}{)}
+    \PYG{k}{cdef} \PYG{k+kt}{cnp}.\PYG{k+kt}{ndarray} \PYG{n+nf}{k3} \PYG{o}{=} \PYG{n}{h}\PYG{o}{*}\PYG{n}{fun}\PYG{p}{(}\PYG{n}{yn} \PYG{o}{+} \PYG{p}{(}\PYG{l+m+mf}{1}\PYG{o}{/}\PYG{l+m+mf}{2}\PYG{p}{)}\PYG{o}{*}\PYG{n}{k2}\PYG{p}{)}
+    \PYG{k}{cdef} \PYG{k+kt}{cnp}.\PYG{k+kt}{ndarray} \PYG{n+nf}{k4} \PYG{o}{=} \PYG{n}{h}\PYG{o}{*}\PYG{n}{fun}\PYG{p}{(}\PYG{n}{yn} \PYG{o}{+} \PYG{n}{k3}\PYG{p}{)}
+    \PYG{c}{\PYGZsh{} calcola la nuova posizione e la restituisce per l\PYGZsq{}iterazione successiva}
+    \PYG{k}{return} \PYG{n}{yn} \PYG{o}{+} \PYG{p}{(}\PYG{l+m+mf}{1}\PYG{o}{/}\PYG{l+m+mf}{6}\PYG{p}{)}\PYG{o}{*}\PYG{n}{k1} \PYG{o}{+} \PYG{p}{(}\PYG{l+m+mf}{1}\PYG{o}{/}\PYG{l+m+mf}{3}\PYG{p}{)}\PYG{o}{*}\PYG{n}{k2} \PYG{o}{+} \PYG{p}{(}\PYG{l+m+mf}{1}\PYG{o}{/}\PYG{l+m+mf}{3}\PYG{p}{)}\PYG{o}{*}\PYG{n}{k3} \PYG{o}{+} \PYG{p}{(}\PYG{l+m+mf}{1}\PYG{o}{/}\PYG{l+m+mf}{6}\PYG{p}{)}\PYG{o}{*}\PYG{n}{k4}
+\end{Verbatim}
